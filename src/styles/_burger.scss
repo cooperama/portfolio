@@ -1,0 +1,22 @@
+.burger-menu {
+  width: 30px;
+  height: 3px;
+  background-color: $primary-color;
+  position: relative;
+  margin-right: 1rem;
+}
+.burger-menu::before,
+.burger-menu::after {
+  content: "";
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+.burger-menu::before {
+  top: 10px;
+  background-color: inherit;
+}
+.burger-menu::after {
+  top: 20px;
+  background-color: inherit;
+}

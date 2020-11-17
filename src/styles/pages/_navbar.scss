@@ -1,0 +1,39 @@
+nav {
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-div {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    margin: 0 1rem;
+    display: block;
+    &:visited {
+      color: $primary-color;
+    }
+    &:hover {
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+}
+
+.rotatedRight {
+  position: absolute;
+  width: 700px;
+  right: -280px;
+  top: 400px;
+  transform: rotate(90deg);
+}
+
+.selectedLink {
+  transform: rotate(-90deg);
+  border-bottom: 1px solid $primary-color;
+}
