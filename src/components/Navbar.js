@@ -26,7 +26,7 @@ export const Navbar = (props) => {
   };
   return (
     <nav className="nav-container">
-      {/* <div className="burger-menu"></div> */}
+      <div className="burger-menu"></div>
       <Name />
       <div className="nav-div">
         <a className="nav" href="#home" onClick={navClickHandler}>
