@@ -1,4 +1,23 @@
 .about-container {
-  background-color: blue;
-  height: 100vh;
+  // background-color: blue;
+  min-height: 100vh;
+  p {
+    width: 50%;
+    margin: 0 auto;
+  }
+  ul {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.image-div {
+  width: 50%;
+  margin: 0 auto;
+  img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
 }
