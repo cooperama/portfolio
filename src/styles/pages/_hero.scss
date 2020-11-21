@@ -1,38 +1,79 @@
 .hero-container {
-  // background-color: rgb(102, 102, 208);
   height: 100vh;
   position: relative;
   transform: translateZ(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.hero-text {
+  border: 2px solid $primary-color;
+  padding: 20px;
+  z-index: 2;
+  h3 {
+    font-size: 2.7rem;
+  }
+}
+
+// Parallax elements
 .blob {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   position: absolute;
-  background-color: goldenrod;
+  background-color: $secondary-color;
 }
 
 .b1 {
-  top: 500px;
+  top: 100px;
   left: 200px;
+  z-index: -2;
 }
 .b2 {
-  top: 400px;
+  top: 200px;
   left: 600px;
+  z-index: -2;
 }
 .b3 {
-  top: 560px;
+  top: 260px;
   left: 550px;
 }
 .b4 {
-  top: 330px;
+  top: 390px;
   left: 460px;
 }
 .b5 {
   top: 480px;
-  left: 170px;
+  left: 150px;
 }
 .b6 {
-  top: 690px;
+  top: 590px;
+  left: 720px;
+}
+.b7 {
+  top: 500px;
+  left: 200px;
+  z-index: -2;
+}
+.b8 {
+  top: 600px;
+  left: 300px;
+  z-index: -2;
+}
+.b9 {
+  top: 760px;
+  left: 450px;
+}
+.b10 {
+  top: 890px;
+  left: 560px;
+}
+.b11 {
+  top: 980px;
+  left: 650px;
+}
+.b12 {
+  top: 1090px;
   left: 720px;
 }

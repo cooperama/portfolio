@@ -1,4 +1,21 @@
 .contact-container {
-  // background-color: aliceblue;
-  height: 1500px;
+  background-color: $secondary-color;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.contact-div {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  i {
+    font-size: 2rem;
+  }
+  div {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 10px;
+  }
 }

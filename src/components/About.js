@@ -3,7 +3,13 @@ import { navScrollHandler } from "../utils";
 
 export const About = (props) => {
   return (
-    <div className="about-container" ref={props.aboutRef} id="about">
+    <div className="about-container" id="about">
+      <div className="about-arrow">
+        <h4>About Me</h4>
+        <p>
+          <span>>>></span>
+        </p>
+      </div>
       <div className="image-div">
         <img src="https://www.unsplash.it/400/400" alt="" />
       </div>

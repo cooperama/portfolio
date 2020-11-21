@@ -1,10 +1,24 @@
 import React from "react";
-import { navScrollHandler } from "../utils";
 
 export const Contact = (props) => {
   return (
-    <div className="contact-container" ref={props.contactRef} id="contact">
-      <h1>Contact Me</h1>
+    <div className="contact-container" id="contact">
+      <div className="contact-div">
+        <div>
+          <i className="fab fa-linkedin-in"></i>
+          <i className="fab fa-github"></i>
+          <i className="far fa-envelope"></i>
+        </div>
+        <div>
+          <p>
+            <a href="https://www.linkedin.com/in/jia-amanda/">LinkedIn</a>
+          </p>
+          <p>
+            <a href="https://github.com/cooperama">github</a>
+          </p>
+          <p>cooperama.8@gmail.com</p>
+        </div>
+      </div>
     </div>
   );
 };

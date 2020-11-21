@@ -1,20 +1,30 @@
 import React from "react";
 import { Name } from "./Name";
-import { navClickHandler } from "../utils";
+import { navRotation } from "../utils";
 
 export const Navbar = (props) => {
   return (
-    <nav className="nav-container">
-      <Name />
+    <nav className="nav-container" ref={props.navDivRef}>
+      <Name nameDivRef={props.nameDivRef} nameRef={props.nameRef} />
       <div className="nav-div">
-        <a className="nav" id="home-nav" href="#home" onClick={navClickHandler}>
+        <p className="back-arrow">
+          <span>>>></span>
+        </p>
+        <a
+          className="nav"
+          ref={props.homeRef}
+          id="home-nav"
+          href="#home"
+          onClick={navRotation}
+        >
           Home
         </a>
         <a
           className="nav"
           id="about-nav"
           href="#about"
-          onClick={navClickHandler}
+          ref={props.aboutRef}
+          onClick={navRotation}
         >
           About Me
         </a>
@@ -22,7 +32,8 @@ export const Navbar = (props) => {
           className="nav"
           id="projects-nav"
           href="#projects"
-          onClick={navClickHandler}
+          ref={props.projectsRef}
+          onClick={navRotation}
         >
           My Projects
         </a>
@@ -30,7 +41,8 @@ export const Navbar = (props) => {
           className="nav"
           id="contact-nav"
           href="#contact"
-          onClick={navClickHandler}
+          ref={props.contactRef}
+          onClick={navRotation}
         >
           Contact Me
         </a>

@@ -1,12 +1,14 @@
 .name-container {
   position: absolute;
-  left: 30px;
-  top: 150px;
+  left: 209px;
+  top: 305px;
+  transition: all 0.8s ease;
   h1 {
     display: inline-block;
     margin: 8px;
     font-size: 2.5rem;
     font-weight: 100;
+    color: transparent;
   }
 }
 
@@ -14,16 +16,24 @@
   font-size: 2.9rem !important;
   letter-spacing: 2px;
   padding-bottom: 5px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.687);
+  font-weight: 200 !important;
+  color: black !important;
+}
+
+.name-position {
+  color: transparent;
+  letter-spacing: 2px;
 }
 
 .centered {
   transform: rotate(90deg);
+  // transition: transform 0.8s ease;
 }
 
 .rotatedLeft {
   position: absolute;
-  left: -100px;
-  top: 300px;
+  left: -115px;
+  top: 370px;
   transform: rotate(-90deg);
+  // transition: transform 0.8s ease;
 }
