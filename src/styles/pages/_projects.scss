@@ -5,3 +5,49 @@
     text-align: center;
   }
 }
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 65%;
+  .project {
+    margin: 50px 0;
+    background-color: $secondary-color;
+    padding: 20px;
+    div:nth-of-type(2) {
+      margin-top: 30px;
+    }
+    p {
+      margin-top: 10px;
+    }
+    h3 {
+      width: 100%;
+      border-bottom: 2px solid $primary-color;
+      font-size: 1.7rem;
+    }
+    div:nth-of-type(3) {
+      text-align: right;
+      padding-top: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+    i {
+      padding-left: 8px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px solid $primary-color;
+  padding: 30px 0;
+  img {
+    height: 180px;
+    padding: 5px;
+  }
+}

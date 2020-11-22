@@ -3,6 +3,9 @@ import { Name } from "./Name";
 import { navRotation } from "../utils";
 
 export const Navbar = (props) => {
+  const navClickHandler = (e) => {
+    props.setSection(e.target.id);
+  };
   return (
     <nav className="nav-container">
       <Name />
@@ -15,7 +18,7 @@ export const Navbar = (props) => {
           ref={props.homeRef}
           id="home-nav"
           href="#home"
-          onClick={navRotation}
+          onClick={(navRotation, navClickHandler)}
         >
           Home
         </a>
@@ -24,7 +27,7 @@ export const Navbar = (props) => {
           id="about-nav"
           href="#about"
           ref={props.aboutRef}
-          onClick={navRotation}
+          onClick={(navRotation, navClickHandler)}
         >
           About Me
         </a>
@@ -33,7 +36,7 @@ export const Navbar = (props) => {
           id="projects-nav"
           href="#projects"
           ref={props.projectsRef}
-          onClick={navRotation}
+          onClick={(navRotation, navClickHandler)}
         >
           My Projects
         </a>
@@ -42,7 +45,7 @@ export const Navbar = (props) => {
           id="contact-nav"
           href="#contact"
           ref={props.contactRef}
-          onClick={navRotation}
+          onClick={(navRotation, navClickHandler)}
         >
           Contact Me
         </a>

@@ -38,8 +38,8 @@ export const moveUp = (arrowRef) => {
 export const parallax = (e) => {
   document.querySelectorAll(".blob").forEach((item) => {
     const dataValue = item.getAttribute("data-value");
-    const x = (e.clientX * dataValue) / 200;
-    const y = (e.clientY * dataValue) / 230;
+    const x = (e.clientX * dataValue) / 150;
+    const y = (e.clientY * dataValue) / 150;
     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
 };

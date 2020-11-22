@@ -1,6 +1,6 @@
 $primary-color: #1a2a54;
 $secondary-color: #b1bdde72;
-// $secondary-color: #89a0e0;
+$light-color: #89a0e0;
 
 * {
   margin: 0;
@@ -8,13 +8,16 @@ $secondary-color: #b1bdde72;
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
   p,
   li {
     font-family: "Rokkitt", serif;
   }
   .App {
     overflow: hidden;
+  }
+  a {
+    color: $primary-color;
   }
 }
 .arrow {

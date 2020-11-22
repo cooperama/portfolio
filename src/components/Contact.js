@@ -17,14 +17,27 @@ export const Contact = (props) => {
         </div>
         <div>
           <p>
-            <a href="https://www.linkedin.com/in/jia-amanda/">LinkedIn</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/jia-amanda/"
+            >
+              LinkedIn
+            </a>
           </p>
           <p>
-            <a href="https://github.com/cooperama">github</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/cooperama"
+            >
+              github
+            </a>
           </p>
           <p>cooperama.8@gmail.com</p>
         </div>
       </div>
+      <h3 className="work-together">Let's work together.</h3>
     </div>
   );
 };

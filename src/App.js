@@ -4,7 +4,7 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-import { navRotation, moveDown, moveUp } from "./utils";
+import { navRotation, moveDown, moveUp, parallax } from "./utils";
 
 import "./styles/app.scss";
 
@@ -71,25 +71,25 @@ const App = () => {
     // console.log(
     //   appRef.current.childNodes[2].getBoundingClientRect().height /
     //     scrollDistance
-    // ); // about 33%
+    // ); // about
     // console.log(
     //   appRef.current.childNodes[3].getBoundingClientRect().height /
     //     scrollDistance
-    // ); // projects 73%
+    // ); // projects
     // console.log(
     //   appRef.current.childNodes[4].getBoundingClientRect().height /
     //     scrollDistance
     // ); // contact
 
-    if (topBound < -2600) {
+    if (topBound < -3550) {
       if (section !== "contact-nav") {
         setSection("contact-nav");
       }
-    } else if (topBound < -1650) {
+    } else if (topBound < -1725) {
       if (section !== "projects-nav") {
         setSection("projects-nav");
       }
-    } else if (topBound < -50) {
+    } else if (topBound < -100) {
       if (section !== "about-nav") {
         setSection("about-nav");
       }
@@ -101,7 +101,12 @@ const App = () => {
   };
 
   return (
-    <div className="App" onWheel={sectionScroll} ref={appRef}>
+    <div
+      className="App"
+      onWheel={sectionScroll}
+      onMouseMove={parallax}
+      ref={appRef}
+    >
       <Navbar
         section={section}
         setSection={setSection}
