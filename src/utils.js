@@ -16,11 +16,6 @@ export const navRotation = (selectedEl) => {
     nameDiv.classList.remove("rotatedLeft");
     nameDiv.children[1].classList.remove("centered");
     navContainer.children[0].style.transform = "rotate(180deg)";
-    navContainer.children[0].style.color = "transparent";
-    // Reset font styles
-    nameDiv.children[0].style.color = "transparent";
-    nameDiv.children[1].style.borderBottom = "none";
-    nameDiv.children[2].style.color = "transparent";
     return;
   }
 
@@ -28,24 +23,23 @@ export const navRotation = (selectedEl) => {
   navContainer.classList.add("rotatedRight");
   selectedEl.classList.add("selectedLink");
   navContainer.children[0].style.transform = "rotate(90deg)";
-  navContainer.children[0].style.color = "black";
   nameDiv.classList.add("rotatedLeft");
   nameDiv.children[1].classList.add("centered");
-  // Adjust font styles
-  nameDiv.children[0].style.color = "black";
-  nameDiv.children[1].style.borderBottom = "3px solid rgba(0, 0, 0, 0.687)";
-  nameDiv.children[2].style.color = "black";
+};
+
+export const moveDown = (arrowRef) => {
+  arrowRef.classList.add("lowered-arrow");
+};
+export const moveUp = (arrowRef) => {
+  arrowRef.classList.remove("lowered-arrow");
 };
 
 // Parallax animation
 export const parallax = (e) => {
   document.querySelectorAll(".blob").forEach((item) => {
     const dataValue = item.getAttribute("data-value");
-    const x = (e.clientX * dataValue) / 230;
+    const x = (e.clientX * dataValue) / 200;
     const y = (e.clientY * dataValue) / 230;
-    // const x = e.clientX * dataValue * 0.01;
-    // const y = e.clientY * dataValue * 0.01;
-
     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
 };

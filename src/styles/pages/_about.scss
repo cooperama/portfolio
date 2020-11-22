@@ -1,42 +1,52 @@
 .about-container {
   background-color: $secondary-color;
   min-height: 100vh;
-  padding: 50px;
   position: relative;
-  .about-arrow {
-    text-align: center;
-    position: relative;
-    margin: auto;
-    top: -180px;
-    width: 170px;
-    h4 {
-      padding-bottom: 10px;
-      border-bottom: 1px solid black;
-    }
-    p {
-      font-size: 1.3rem;
-      transform: rotate(90deg);
-    }
-  }
+  padding-bottom: 100px;
   p {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  ul {
-    display: block;
-    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.5;
+    width: 65%;
     margin: 0 auto;
   }
 }
 
-.image-div {
-  width: 50%;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  img {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+.personal-blurb {
+  margin: 130px 0;
+}
+
+.divider {
+  transform: rotate(90deg);
+  span {
+    font-size: 1.5rem;
   }
+}
+
+.skills-container {
+  padding-top: 20px;
+  margin: 100px 0;
+  div {
+    width: 65%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    li {
+      list-style: none;
+      padding-bottom: 5px;
+      font-size: 1.2rem;
+      letter-spacing: 1.3px;
+    }
+  }
+}
+
+h3 {
+  font-size: 1.3rem;
+  width: 170px;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid $primary-color;
+  margin: auto;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
 }

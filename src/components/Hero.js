@@ -17,13 +17,13 @@ export const Hero = (props) => {
       <div data-value="-5" className="blob b11"></div>
       <div data-value="-6" className="blob b12"></div>
       <div className="hero-text">
-        <h3>
+        <h2>
           Hi, I'm <span className="name-position">Jia</span>.
-        </h3>
-        <h3>Full Stack Web Developer.</h3>
-        <h3>Software Engineer.</h3>
-        <h3>Former Teacher.</h3>
-        <h3>Forever Learner.</h3>
+        </h2>
+        <h2>Full Stack Web Developer.</h2>
+        <h2>Software Engineer.</h2>
+        <h2>Former Teacher.</h2>
+        <h2>Forever Learner.</h2>
       </div>
     </div>
   );

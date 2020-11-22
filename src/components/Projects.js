@@ -4,7 +4,12 @@ import { navScrollHandler } from "../utils";
 export const Projects = (props) => {
   return (
     <div className="projects-container" id="projects">
-      <h1>My Projects</h1>
+      <div ref={props.projectsArrowRef} className="arrow">
+        <h4>My Projects</h4>
+        <p className="divider">
+          <span>></span>
+        </p>
+      </div>
       <div className="project">
         <img src="https://www.unsplash.it/300" alt="project" />
         <h4>Project Name</h4>

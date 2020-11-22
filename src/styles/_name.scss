@@ -1,33 +1,26 @@
 .name-container {
   position: absolute;
-  left: 209px;
-  top: 305px;
+  left: 20px;
+  top: 30px;
   transition: all 0.8s ease;
   h1 {
     display: inline-block;
     margin: 8px;
     font-size: 2.5rem;
     font-weight: 100;
-    color: transparent;
   }
 }
 
 .name {
   font-size: 2.9rem !important;
   letter-spacing: 2px;
-  padding-bottom: 5px;
+  padding: 0 5px 5px 5px;
   font-weight: 200 !important;
-  color: black !important;
-}
-
-.name-position {
-  color: transparent;
-  letter-spacing: 2px;
+  border-bottom: 2px solid $primary-color;
 }
 
 .centered {
   transform: rotate(90deg);
-  // transition: transform 0.8s ease;
 }
 
 .rotatedLeft {
@@ -35,5 +28,4 @@
   left: -115px;
   top: 370px;
   transform: rotate(-90deg);
-  // transition: transform 0.8s ease;
 }

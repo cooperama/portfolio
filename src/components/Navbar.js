@@ -4,8 +4,8 @@ import { navRotation } from "../utils";
 
 export const Navbar = (props) => {
   return (
-    <nav className="nav-container" ref={props.navDivRef}>
-      <Name nameDivRef={props.nameDivRef} nameRef={props.nameRef} />
+    <nav className="nav-container">
+      <Name />
       <div className="nav-div">
         <p className="back-arrow">
           <span>>>></span>

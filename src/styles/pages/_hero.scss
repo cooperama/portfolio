@@ -11,9 +11,13 @@
   border: 2px solid $primary-color;
   padding: 20px;
   z-index: 2;
-  h3 {
+  h2 {
     font-size: 2.7rem;
   }
+}
+
+.name-position {
+  transform: translateZ(3);
 }
 
 // Parallax elements

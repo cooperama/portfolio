@@ -4,7 +4,7 @@ nav {
   position: fixed;
   z-index: 1;
   font-family: "Syne Mono", monospace;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .nav-div {
@@ -19,12 +19,13 @@ nav {
     text-decoration: none;
     color: $primary-color;
     margin: 0 1rem;
+    padding-bottom: 5px;
     display: block;
     &:visited {
       color: $primary-color;
     }
     &:hover {
-      border-bottom: 1px solid $primary-color;
+      border-bottom: 2px solid $primary-color;
     }
   }
 }
@@ -40,7 +41,7 @@ nav {
 
 .selectedLink {
   transform: rotate(-90deg);
-  border-bottom: 1px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
   transition: all 0.4s ease;
 }
 

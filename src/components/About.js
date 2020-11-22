@@ -1,66 +1,88 @@
 import React from "react";
-import { navScrollHandler } from "../utils";
+import profilePic from "../images/my_pic.jpg";
 
 export const About = (props) => {
   return (
     <div className="about-container" id="about">
-      <div className="about-arrow">
+      <div ref={props.aboutArrowRef} className="arrow">
         <h4>About Me</h4>
-        <p>
-          <span>>>></span>
+        <p className="divider">
+          <span>></span>
         </p>
       </div>
-      <div className="image-div">
-        <img src="https://www.unsplash.it/400/400" alt="" />
+      <div className="personal-blurb">
+        <p>
+          Full stack developer with a background in ESL education over five
+          years and in two foreign countries.
+        </p>
+        <p className="divider">
+          <span>></span>
+        </p>
+        <p>
+          My student-focused method of teaching translates into a
+          client-centered approach, where my soft skills of patience, care, and
+          diplomacy are interleaved with my hard skills of software engineering
+          and web development in order to create an end product that matches the
+          vision of my clients.
+        </p>
+        <p className="divider">
+          <span>></span>
+        </p>
+        <p>
+          It is my objective to create professional, engaging, and fluid
+          applications that inspire the user and communicate the product through
+          seamless function and thoughtful form.
+        </p>
+        <p className="divider">
+          <span>></span>
+        </p>
       </div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
-        consectetur ratione sed aliquam corporis cum quibusdam aliquid, totam
-        harum? Iure accusantium enim recusandae non eaque tenetur ducimus, natus
-        dolorum saepe facilis voluptatum aperiam quos repellendus ab cupiditate?
-        Officia magni adipisci tenetur, illum maiores ut pariatur fugiat velit
-        laborum, voluptas autem itaque sed debitis. Nobis, dignissimos ab?
-        Aspernatur perspiciatis et nam?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        error animi, culpa laboriosam sit sapiente quisquam. Officia
-        reprehenderit sapiente rem aliquid nobis atque minima modi placeat aut
-        ut, nesciunt similique alias adipisci magnam omnis consectetur deleniti
-        eveniet quam totam dolor illo veniam impedit? Asperiores in unde fugit
-        magnam inventore.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-        necessitatibus praesentium eaque obcaecati ipsum reiciendis. Aliquam
-        inventore repellat dolore libero dignissimos omnis, veritatis
-        repudiandae ab voluptas quod voluptatibus, consectetur rem!
-      </p>
       <div className="skills-container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-          odit.
+        <h3>Hard Skills</h3>
+        <p className="divider">
+          <span>></span>
         </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-        </ul>
+        <div>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>ReactJS</li>
+            <li>Python</li>
+            <li>Django</li>
+          </ul>
+          <ul>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>CRUD</li>
+            <li>RESTful Routing</li>
+          </ul>
+          <ul>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>Materialize</li>
+            <li>SASS</li>
+            <li>APIs</li>
+          </ul>
+        </div>
       </div>
-      <div className="soft-skills-container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-          odit.
+      <div className="skills-container">
+        <h3>Soft Skills</h3>
+        <p className="divider">
+          <span>></span>
         </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-        </ul>
+        <div>
+          <ul>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Detail-oriented</li>
+            <li>Dependable</li>
+            <li>Growth-mindset</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
