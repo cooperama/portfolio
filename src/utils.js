@@ -13,16 +13,18 @@ export const navRotation = (selectedEl) => {
   // Handle Home button click - return to original position
   if (selectedEl.innerText === "Home") {
     navContainer.classList.remove("rotatedRight");
+    navContainer.children[0].style.transform = "rotate(180deg)";
+
     nameDiv.classList.remove("rotatedLeft");
     nameDiv.children[1].classList.remove("centered");
-    navContainer.children[0].style.transform = "rotate(180deg)";
     return;
   }
 
   // Handle Nav clicks - rotate to side
   navContainer.classList.add("rotatedRight");
-  selectedEl.classList.add("selectedLink");
   navContainer.children[0].style.transform = "rotate(90deg)";
+  selectedEl.classList.add("selectedLink");
+
   nameDiv.classList.add("rotatedLeft");
   nameDiv.children[1].classList.add("centered");
 };
@@ -35,11 +37,11 @@ export const moveUp = (arrowRef) => {
 };
 
 // Parallax animation
-export const parallax = (e) => {
-  document.querySelectorAll(".blob").forEach((item) => {
-    const dataValue = item.getAttribute("data-value");
-    const x = (e.clientX * dataValue) / 150;
-    const y = (e.clientY * dataValue) / 150;
-    item.style.transform = `translateX(${x}px) translateY(${y}px)`;
-  });
-};
+// export const parallax = (e) => {
+//   document.querySelectorAll(".blob").forEach((item) => {
+//     const dataValue = item.getAttribute("data-value");
+//     const x = (e.clientX * dataValue) / 150;
+//     const y = (e.clientY * dataValue) / 150;
+//     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
+//   });
+// };

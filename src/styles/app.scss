@@ -1,5 +1,6 @@
-$primary-color: #1a2a54;
-$secondary-color: #b1bdde72;
+$primary-color: #1a2a54d7;
+$secondary-color: #b1bddea1;
+$opaque-color: #b1bdde;
 $light-color: #89a0e0;
 
 * {
@@ -20,12 +21,26 @@ $light-color: #89a0e0;
     color: $primary-color;
   }
 }
+.name-mobile {
+  display: none;
+}
 .arrow {
   text-align: center;
   position: relative;
   margin: auto;
   top: -70px;
   width: 200px;
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   left: -50%;
+  //   top: -50%;
+  //   border-left: 200px solid transparent;
+  //   border-right: 200px solid transparent;
+  //   border-top: 100px solid $secondary-color;
+  //   border-bottom: 10px solid transparent;
+  //   z-index: -1;
+  // }
   h4 {
     padding-bottom: 10px;
     border-bottom: 1px solid $primary-color;
@@ -45,6 +60,7 @@ $light-color: #89a0e0;
   transition: all 0.5s ease;
   h4 {
     padding-top: 20px;
+    // background-image: url("https://www.unsplash.it/100");
   }
 }
 

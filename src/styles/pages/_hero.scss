@@ -8,7 +8,8 @@
 }
 
 .hero-text {
-  border: 2px solid $primary-color;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
   padding: 20px;
   z-index: 2;
   h2 {

@@ -9,6 +9,9 @@ export const Navbar = (props) => {
   return (
     <nav className="nav-container">
       <Name />
+      <h1 className="name-mobile">
+        Amanda <span>Jia</span> Cooper
+      </h1>
       <div className="nav-div">
         <p className="back-arrow">
           <span>>>></span>

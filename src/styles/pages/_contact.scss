@@ -7,11 +7,15 @@
   display: flex;
   margin: 150px auto;
   justify-content: center;
-  border: 2px solid $primary-color;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
   width: 500px;
   height: 35vh;
   i {
     font-size: 2rem;
+  }
+  p {
+    font-size: 1.1rem;
   }
   div {
     display: flex;

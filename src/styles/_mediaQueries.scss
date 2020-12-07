@@ -17,14 +17,61 @@
   }
 
   .name {
-    font-size: 2.7rem !important;
+    font-size: 2.7rem;
+    // font-size: 2.7rem !important;
     transform: rotate(90deg);
   }
 }
 // Mobile Portrait
 @media (max-width: 414px) {
   nav {
-    background-color: red;
-    height: 70px;
+    background-color: $opaque-color;
+    height: 8vh;
+    .burger-menu {
+      top: 22px;
+      right: 10px;
+    }
+  }
+  .project-section,
+  .skills-container div {
+    width: 90%;
+    ul {
+      width: 30%;
+    }
+    li {
+      font-size: 1.1rem;
+    }
+  }
+  .hero-text h2 {
+    font-size: 2.4rem;
+  }
+  .personal-blurb p {
+    width: 80%;
+  }
+  .name-container {
+    display: none;
+    // left: -85px;
+    // h1 {
+    //   font-size: 1.6rem;
+    //   margin: 0;
+    //   .name {
+    //     font-size: 2rem !important;
+    //   }
+    // }
+  }
+  .name-mobile {
+    display: block;
+    font-size: 1.4rem;
+    padding: 15px;
+    span {
+      font-size: 1.8rem;
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+  .contact-div {
+    width: 100vw;
+  }
+  .contact-container {
+    height: 92vh;
   }
 }

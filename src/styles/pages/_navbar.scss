@@ -14,7 +14,6 @@ nav {
   position: absolute;
   top: 90px;
   right: 30px;
-  transition: all 0.4s ease;
   a {
     text-decoration: none;
     color: $primary-color;
@@ -25,7 +24,7 @@ nav {
       color: $primary-color;
     }
     &:hover {
-      border-bottom: 2px solid $primary-color;
+      border-bottom: 1px solid $primary-color;
     }
   }
 }
@@ -41,7 +40,7 @@ nav {
 
 .selectedLink {
   transform: rotate(-90deg);
-  border-bottom: 2px solid $primary-color;
+  border-bottom: 1px solid $primary-color;
   transition: all 0.4s ease;
 }
 

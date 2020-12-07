@@ -4,7 +4,7 @@ import React from "react";
 export const Hero = (props) => {
   return (
     <div className="hero-container" id="home">
-      <div data-value="1" className="blob b1"></div>
+      {/* <div data-value="1" className="blob b1"></div>
       <div data-value="2" className="blob b2"></div>
       <div data-value="3" className="blob b3"></div>
       <div data-value="4" className="blob b4"></div>
@@ -27,7 +27,7 @@ export const Hero = (props) => {
       <div data-value="-9" className="blob b21"></div>
       <div data-value="-10" className="blob b22"></div>
       <div data-value="-11" className="blob b23"></div>
-      <div data-value="-12" className="blob b24"></div>
+      <div data-value="-12" className="blob b24"></div> */}
       <div className="hero-text">
         <h2>
           Hi, I'm <span className="name-position">Jia</span>.

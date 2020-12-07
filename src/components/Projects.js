@@ -27,9 +27,13 @@ export const Projects = (props) => {
           </div>
           <div>
             <p>
-              Project description Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptas voluptatem cum consequuntur dolorem
-              sunt laudantium deleniti vitae modi. Dolorum, impedit.
+              Flixr is a cinematic search engine powered by user responses to a
+              simple this or that quizlet that generates a personalized playlist
+              that matches the user's current mood and interests.
+            </p>
+            <p>
+              Built with MongoDB, Express.js, and Node.js using TMDB's (The
+              Movie Database) web API.
             </p>
           </div>
           <div>
@@ -52,9 +56,14 @@ export const Projects = (props) => {
           </div>
           <div>
             <p>
-              Project description Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Voluptas voluptatem cum consequuntur dolorem
-              sunt laudantium deleniti vitae modi. Dolorum, impedit.
+              Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
+              for Motchi is the user's job, which they can do by watching how
+              Motchi behaves and monitoring Motchi's stats.
+            </p>
+            <p>
+              This simple game based on the classic 90s Tamagotchi Pet game was
+              built with vanilla JavaScript, HTML, and CSS and deployed on
+              Github Pages.
             </p>
           </div>
           <div>

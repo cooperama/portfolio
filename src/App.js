@@ -4,7 +4,8 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-import { navRotation, moveDown, moveUp, parallax } from "./utils";
+import { navRotation, moveDown, moveUp } from "./utils";
+// import { navRotation, moveDown, moveUp, parallax } from "./utils";
 
 import "./styles/app.scss";
 
@@ -104,7 +105,7 @@ const App = () => {
     <div
       className="App"
       onWheel={sectionScroll}
-      onMouseMove={parallax}
+      // onMouseMove={parallax}
       ref={appRef}
     >
       <Navbar
