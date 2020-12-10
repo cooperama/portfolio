@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Name } from "./Name";
 import { navRotation } from "../utils";
 
 export const Navbar = (props) => {
+  const navRef = useRef();
+  const burgerRef = useRef();
   const navClickHandler = (e) => {
     props.setSection(e.target.id);
   };
-  const burgerClickHandler = (e) => {
-    //
+  const burgerClickHandler = () => {
+    navRef.current.classList.toggle("burger-nav-toggle");
   };
   return (
     <nav className="nav-container">
@@ -56,7 +58,24 @@ export const Navbar = (props) => {
           Contact Me
         </a>
       </div>
-      <div onClick={burgerClickHandler} className="burger-menu"></div>
+      <div className="burger-container" onClick={burgerClickHandler}>
+        <div ref={burgerRef} className="burger-menu"></div>
+      </div>
+      <div ref={navRef} className="burger-nav">
+        <div className="burger-menu-back"></div>
+        <a onClick={burgerClickHandler} href="#home" id="home-nav">
+          Home
+        </a>
+        <a onClick={burgerClickHandler} href="#about" id="about-nav">
+          About Me
+        </a>
+        <a onClick={burgerClickHandler} href="#projects" id="projects-nav">
+          My Projects
+        </a>
+        <a onClick={burgerClickHandler} href="#contact" id="contact-nav">
+          Contact Me
+        </a>
+      </div>
     </nav>
   );
 };
