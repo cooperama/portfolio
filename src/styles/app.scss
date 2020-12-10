@@ -13,11 +13,16 @@ $light-color: #89a0e0;
   p,
   li {
     font-family: "Rokkitt", serif;
+    font-size: 1.1rem;
+    user-select: none;
   }
   .App {
     overflow: hidden;
   }
-  a {
+  a,
+  h1,
+  h3 {
+    user-select: none;
     color: black;
   }
 }

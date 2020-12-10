@@ -22,7 +22,7 @@ import codependent4 from "../images/codependent4.png";
 export const Projects = (props) => {
   const imageOverHandler = (e) => {
     if (window.innerWidth > 786) {
-      e.target.style.transform = "scale(2)";
+      e.target.style.transform = "scale(1.5)";
       e.target.style.zIndex = "3";
     }
   };

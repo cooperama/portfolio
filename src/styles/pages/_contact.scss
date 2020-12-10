@@ -11,6 +11,9 @@
   border-bottom: 2px solid black;
   width: 500px;
   height: 35vh;
+  a {
+    user-select: all;
+  }
   i {
     font-size: 2rem;
   }
@@ -26,7 +29,7 @@
 }
 
 .work-together {
-  margin-top: 15%;
+  // margin-top: 15%;
   border-bottom: none;
   width: 65%;
 }
