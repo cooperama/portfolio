@@ -8,18 +8,15 @@
 }
 
 .hero-text {
-  border-top: 2px solid $primary-color;
-  border-bottom: 2px solid $primary-color;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   padding: 20px;
   z-index: 2;
   h2 {
     font-size: 2.7rem;
+    font-weight: 100;
   }
 }
-
-// .name-position {
-//   transform: translateZ(3);
-// }
 
 // Parallax elements
 .blob {

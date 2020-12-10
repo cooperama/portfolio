@@ -18,7 +18,7 @@ $light-color: #89a0e0;
     overflow: hidden;
   }
   a {
-    color: $primary-color;
+    color: black;
   }
 }
 .name-mobile {
@@ -30,17 +30,6 @@ $light-color: #89a0e0;
   margin: auto;
   top: -70px;
   width: 200px;
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   left: -50%;
-  //   top: -50%;
-  //   border-left: 200px solid transparent;
-  //   border-right: 200px solid transparent;
-  //   border-top: 100px solid $secondary-color;
-  //   border-bottom: 10px solid transparent;
-  //   z-index: -1;
-  // }
   h4 {
     padding-bottom: 10px;
     border-bottom: 1px solid $primary-color;
@@ -60,7 +49,6 @@ $light-color: #89a0e0;
   transition: all 0.5s ease;
   h4 {
     padding-top: 20px;
-    // background-image: url("https://www.unsplash.it/100");
   }
 }
 
