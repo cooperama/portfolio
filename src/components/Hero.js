@@ -30,7 +30,8 @@ export const Hero = (props) => {
       <div data-value="-12" className="blob b24"></div> */}
       <div className="hero-text">
         <h2>
-          Hi, I'm <span className="name-position">Jia</span>.
+          Hi, I'm mmJia.
+          {/* Hi, I'm <span className="name-position">Jia</span>. */}
         </h2>
         <h2>Full Stack Web Developer.</h2>
         <h2>Software Engineer.</h2>
