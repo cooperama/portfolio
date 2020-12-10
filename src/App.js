@@ -82,7 +82,7 @@ const App = () => {
     //     scrollDistance
     // ); // contact
 
-    if (topBound < -3550) {
+    if (topBound < -4700) {
       if (section !== "contact-nav") {
         setSection("contact-nav");
       }
