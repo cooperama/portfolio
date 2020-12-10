@@ -35,13 +35,3 @@ export const moveDown = (arrowRef) => {
 export const moveUp = (arrowRef) => {
   arrowRef.classList.remove("lowered-arrow");
 };
-
-// Parallax animation
-// export const parallax = (e) => {
-//   document.querySelectorAll(".blob").forEach((item) => {
-//     const dataValue = item.getAttribute("data-value");
-//     const x = (e.clientX * dataValue) / 150;
-//     const y = (e.clientY * dataValue) / 150;
-//     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
-//   });
-// };

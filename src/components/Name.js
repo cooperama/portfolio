@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Name = (props) => {
+export const Name = () => {
   return (
     <div className="name-container">
       <h1>Amanda</h1>

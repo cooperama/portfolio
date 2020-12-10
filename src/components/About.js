@@ -1,5 +1,4 @@
 import React from "react";
-import profilePic from "../images/my_pic.jpg";
 
 export const About = (props) => {
   return (

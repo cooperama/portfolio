@@ -5,7 +5,6 @@ import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { navRotation, moveDown, moveUp } from "./utils";
-// import { navRotation, moveDown, moveUp, parallax } from "./utils";
 
 import "./styles/app.scss";
 
@@ -53,35 +52,6 @@ const App = () => {
 
   const sectionScroll = () => {
     const topBound = appRef.current.getBoundingClientRect().top;
-    const startingHeight = window.innerHeight;
-    const windowHeight = appRef.current.getBoundingClientRect().height;
-    const scrollDistance = windowHeight - startingHeight;
-    // when 3% of the next section is showing, trigger functions
-    console.log(window.innerHeight);
-    console.log("topBound: ", appRef.current.getBoundingClientRect().top);
-    console.log("distance that can be traversed", scrollDistance);
-    console.log(startingHeight / windowHeight);
-    const scrollAmount = Math.abs(topBound) + startingHeight;
-    console.log(scrollAmount);
-    console.log((scrollAmount / windowHeight) * 100);
-    console.log(
-      (appRef.current.childNodes[1].getBoundingClientRect().height /
-        scrollDistance) *
-        100
-    ); // hero /home
-    // console.log(
-    //   appRef.current.childNodes[2].getBoundingClientRect().height /
-    //     scrollDistance
-    // ); // about
-    // console.log(
-    //   appRef.current.childNodes[3].getBoundingClientRect().height /
-    //     scrollDistance
-    // ); // projects
-    // console.log(
-    //   appRef.current.childNodes[4].getBoundingClientRect().height /
-    //     scrollDistance
-    // ); // contact
-
     if (topBound < -3550) {
       if (section !== "contact-nav") {
         setSection("contact-nav");
@@ -102,12 +72,7 @@ const App = () => {
   };
 
   return (
-    <div
-      className="App"
-      onWheel={sectionScroll}
-      // onMouseMove={parallax}
-      ref={appRef}
-    >
+    <div className="App" onWheel={sectionScroll} ref={appRef}>
       <Navbar
         section={section}
         setSection={setSection}

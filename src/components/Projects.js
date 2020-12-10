@@ -1,7 +1,9 @@
 import React from "react";
+
 import flixr from "../images/flixr.png";
 import flixr2 from "../images/flixr2.png";
 import flixr3 from "../images/flixr3.png";
+
 import tamagotchi from "../images/tamagotchi.png";
 import tamagotchi2 from "../images/tamagotchi2.png";
 import tamagotchi3 from "../images/tamagotchi3.png";
@@ -37,7 +39,6 @@ export const Projects = (props) => {
         </p>
       </div>
       <div className="project-section">
-        {/*  */}
         <div className="project">
           <h3>Flixr</h3>
           <div className="images-container">
@@ -81,7 +82,6 @@ export const Projects = (props) => {
             </a>
           </div>
         </div>
-        {/*  */}
         <div className="project">
           <h3>co[de]pendent</h3>
           <div className="images-container">
@@ -128,7 +128,6 @@ export const Projects = (props) => {
             </a>
           </div>
         </div>
-        {/* */}
         <div className="project">
           <h3>Wayfarer</h3>
           <div className="images-container">
@@ -170,7 +169,6 @@ export const Projects = (props) => {
             </a>
           </div>
         </div>
-        {/*  */}
         <div className="project">
           <h3>Motchi Gotchi</h3>
           <div className="images-container">
