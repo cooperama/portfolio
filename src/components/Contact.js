@@ -34,7 +34,9 @@ export const Contact = (props) => {
               github
             </a>
           </p>
-          <p>cooperama.8@gmail.com</p>
+          <p>
+            <a href="mailto:cooperama.8@gmail.com">cooperama.8@gmail.com</a>
+          </p>
         </div>
       </div>
       <h3 className="work-together">Let's work together.</h3>

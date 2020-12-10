@@ -6,6 +6,9 @@ export const Navbar = (props) => {
   const navClickHandler = (e) => {
     props.setSection(e.target.id);
   };
+  const burgerClickHandler = (e) => {
+    //
+  };
   return (
     <nav className="nav-container">
       <Name />
@@ -53,7 +56,7 @@ export const Navbar = (props) => {
           Contact Me
         </a>
       </div>
-      <div className="burger-menu"></div>
+      <div onClick={burgerClickHandler} className="burger-menu"></div>
     </nav>
   );
 };
