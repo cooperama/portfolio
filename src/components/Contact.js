@@ -35,7 +35,9 @@ export const Contact = (props) => {
             </a>
           </p>
           <p>
-            <a href="mailto:cooperama.8@gmail.com">cooperama.8@gmail.com</a>
+            <a rel="noreferrer" href="mailto:cooperama.8@gmail.com">
+              cooperama.8@gmail.com
+            </a>
           </p>
         </div>
       </div>
