@@ -1,4 +1,6 @@
 .burger-menu-back,
+.burger-menu-back2,
+.burger-menu2,
 .burger-menu {
   width: 15px;
   height: 1px;
@@ -9,25 +11,41 @@
   margin-right: 1rem;
   transition: all 0.5s ease;
 }
-.burger-menu-back {
-  top: -56px;
-  right: 12px;
+
+.burger-menu-back2 {
+  top: -52px;
+  right: 23px;
   z-index: -1;
 }
+
+.burger-menu-back {
+  top: -52px;
+  right: 13px;
+  z-index: -1;
+}
+
 .burger-menu-back::before,
 .burger-menu-back::after,
 .burger-menu::before,
-.burger-menu::after {
+.burger-menu::after,
+.burger-menu-back2::before,
+.burger-menu-back2::after,
+.burger-menu2::before,
+.burger-menu2::after {
   content: "";
   width: inherit;
   height: inherit;
   position: absolute;
 }
+
+.burger-menu-back::after,
 .burger-menu::before {
   transform: rotate(-45deg);
   top: 10px;
   background-color: black;
 }
+
+.burger-menu-back::before,
 .burger-menu::after {
   top: 20px;
   transform: rotate(45deg);
@@ -35,14 +53,10 @@
 }
 
 .burger-menu-back::before {
-  transform: rotate(45deg);
   top: 10px;
-  background-color: black;
 }
 .burger-menu-back::after {
-  transform: rotate(-45deg);
   top: 20px;
-  background-color: black;
 }
 
 .burger-container {
@@ -66,11 +80,11 @@
     display: block;
     text-align: right;
     padding: 5px 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     font-size: 1.1rem;
   }
 }
 
 .burger-nav-toggle {
-  right: 10px;
+  right: 38px;
 }

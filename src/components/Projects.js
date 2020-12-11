@@ -34,13 +34,45 @@ export const Projects = (props) => {
     <div className="projects-container" id="projects">
       <div ref={props.projectsArrowRef} className="arrow">
         <h4>My Projects</h4>
-        <p className="divider">
+        {/* <p className="divider">
           <span>></span>
-        </p>
+        </p> */}
+      </div>
+      <div className="arrow-mobile">
+        <h4>My Projects</h4>
+        {/* <p className="divider"><span>></span></p> */}
       </div>
       <div className="project-section">
         <div className="project">
           <h3>Flixr</h3>
+          <div>
+            <p>
+              Flixr is a cinematic search engine powered by user responses to a
+              simple this or that quizlet that generates a personalized playlist
+              that matches the user's current mood and interests.
+            </p>
+            <p>
+              Built with MongoDB, Express.js, and Node.js using TMDB's (The
+              Movie Database) web API.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="http://flixr-io.herokuapp.com/"
+            >
+              Experience Flixr
+              <i className="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/flixr"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
           <div className="images-container">
             <img
               onMouseOut={imageOutHandler}
@@ -61,29 +93,30 @@ export const Projects = (props) => {
               alt="project"
             />
           </div>
-          <div>
-            <p>
-              Flixr is a cinematic search engine powered by user responses to a
-              simple this or that quizlet that generates a personalized playlist
-              that matches the user's current mood and interests.
-            </p>
-            <p>
-              Built with MongoDB, Express.js, and Node.js using TMDB's (The
-              Movie Database) web API.
-            </p>
-          </div>
-          <div>
-            <a target="_blank" href="http://flixr-io.herokuapp.com/">
-              Experience Flixr
-              <i className="fas fa-external-link-alt"></i>
-            </a>
-            <a target="_blank" href="https://github.com/cooperama/flixr">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
         </div>
         <div className="project">
           <h3>co[de]pendent</h3>
+          <div>
+            <p>
+              Co[de]pendent is a place where technologically-inclined people can
+              meet and foster their passion together. It's a place to share
+              knowledge, resources, and advice with like-minded people who all
+              have something to learn and teach.
+            </p>
+            <p>
+              Built with a MERN stack and implementing the FullCalendar library
+              to create a scheduling system.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/codependent"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
           <div className="images-container">
             <img
               onMouseOut={imageOutHandler}
@@ -110,26 +143,25 @@ export const Projects = (props) => {
               alt="project"
             />
           </div>
-          <div>
-            <p>
-              Co[de]pendent is a place where technologically-inclined people can
-              meet and foster their passion together. It's a place to share
-              knowledge, resources, and advice with like-minded people who all
-              have something to learn and teach.
-            </p>
-            <p>
-              Built with a MERN stack and implementing the FullCalendar library
-              to create a scheduling system.
-            </p>
-          </div>
-          <div>
-            <a target="_blank" href="https://github.com/cooperama/codependent">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
         </div>
         <div className="project">
           <h3>Wayfarer</h3>
+          <div>
+            <p>
+              Wayfarer is an online community of travelers and drifters, where
+              memories are shared and adventures are planned.
+            </p>
+            <p>Built with Python/Django and PostgreSQL.</p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/Wayfarer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
           <div className="images-container">
             <img
               onMouseOut={imageOutHandler}
@@ -156,21 +188,37 @@ export const Projects = (props) => {
               alt="project"
             />
           </div>
-          <div>
-            <p>
-              Wayfarer is an online community of travelers and drifters, where
-              memories are shared and adventures are planned.
-            </p>
-            <p>Built with Python/Django and PostgreSQL.</p>
-          </div>
-          <div>
-            <a target="_blank" href="https://github.com/cooperama/Wayfarer">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
         </div>
         <div className="project">
           <h3>Motchi Gotchi</h3>
+          <div>
+            <p>
+              Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
+              for Motchi is the user's job, which they can do by watching how
+              Motchi behaves and monitoring Motchi's stats.
+            </p>
+            <p>
+              This simple game based on the classic 90s Tamagotchi Pet game was
+              built with vanilla JavaScript, HTML, and CSS and deployed on
+              Github Pages.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://pages.git.generalassemb.ly/cooperama/project_0_tamagotchi/"
+            >
+              Play with Motchi<i className="fas fa-external-link-alt"></i>
+            </a>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/motchi-gotchi"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </div>
           <div className="images-container">
             <img
               onMouseOut={imageOutHandler}
@@ -196,32 +244,6 @@ export const Projects = (props) => {
               src={tamagotchi4}
               alt="project"
             />
-          </div>
-          <div>
-            <p>
-              Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
-              for Motchi is the user's job, which they can do by watching how
-              Motchi behaves and monitoring Motchi's stats.
-            </p>
-            <p>
-              This simple game based on the classic 90s Tamagotchi Pet game was
-              built with vanilla JavaScript, HTML, and CSS and deployed on
-              Github Pages.
-            </p>
-          </div>
-          <div>
-            <a
-              target="_blank"
-              href="https://pages.git.generalassemb.ly/cooperama/project_0_tamagotchi/"
-            >
-              Play with Motchi<i className="fas fa-external-link-alt"></i>
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/cooperama/motchi-gotchi"
-            >
-              <i className="fab fa-github"></i>
-            </a>
           </div>
         </div>
       </div>

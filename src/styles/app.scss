@@ -29,33 +29,46 @@ $light-color: #89a0e0;
 .name-mobile {
   display: none;
 }
+
+.arrow-mobile,
 .arrow {
   text-align: center;
   position: relative;
   margin: auto;
-  top: -70px;
-  width: 200px;
+  top: 30px;
+  // top: -70px;
+  width: 300px;
   h4 {
-    padding-bottom: 10px;
-    border-bottom: 1px solid $primary-color;
+    padding: 15px;
     margin-bottom: 5px;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
+    font-size: 1.4rem;
+    // font-size: 1.3rem;
+    letter-spacing: 10px;
+    // letter-spacing: 2px;
   }
   p {
     font-size: 1.3rem;
-    transform: rotate(90deg);
   }
 }
 
-.lowered-arrow {
-  top: 0px;
-  margin-bottom: 0;
-  transition: all 0.5s ease;
+.arrow-mobile {
+  display: none;
+  top: 30px;
   h4 {
-    padding-top: 20px;
+    font-size: 1.6rem;
+    text-shadow: $opaque-color;
+    letter-spacing: 10px;
   }
 }
+
+// .lowered-arrow {
+//   top: 0px;
+//   margin-bottom: 0;
+//   transition: all 0.5s ease;
+//   h4 {
+//     padding-top: 20px;
+//   }
+// }
 
 @import "./pages/navbar";
 @import "./pages/hero";
