@@ -63,7 +63,7 @@ export const Projects = (props) => {
               target="_blank"
               href="https://github.com/cooperama/flixr"
             >
-              <i className="fab fa-github"></i>
+              Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="images-container">
@@ -107,7 +107,7 @@ export const Projects = (props) => {
               target="_blank"
               href="https://github.com/cooperama/codependent"
             >
-              <i className="fab fa-github"></i>
+              Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="images-container">
@@ -152,7 +152,7 @@ export const Projects = (props) => {
               target="_blank"
               href="https://github.com/cooperama/Wayfarer"
             >
-              <i className="fab fa-github"></i>
+              Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="images-container">
@@ -209,7 +209,7 @@ export const Projects = (props) => {
               target="_blank"
               href="https://github.com/cooperama/motchi-gotchi"
             >
-              <i className="fab fa-github"></i>
+              Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="images-container">

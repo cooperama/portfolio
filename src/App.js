@@ -56,7 +56,7 @@ const App = () => {
       if (section !== "contact-nav") {
         setSection("contact-nav");
       }
-    } else if (topBound < -1725) {
+    } else if (topBound < -1480) {
       if (section !== "projects-nav") {
         setSection("projects-nav");
       }

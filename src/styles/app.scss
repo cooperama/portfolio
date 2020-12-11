@@ -35,7 +35,7 @@ $light-color: #89a0e0;
   position: relative;
   margin: auto;
   top: 30px;
-  width: 300px;
+  width: 50%;
   h4 {
     padding: 15px;
     margin-bottom: 5px;
@@ -47,6 +47,18 @@ $light-color: #89a0e0;
     font-size: 1.3rem;
   }
 }
+
+// .lowered-arrow {
+//   top: 30px;
+//   background-color: $opaque-color;
+//   transition: all 0.5s ease;
+//   h4 {
+//     transition: all 0.5s ease;
+//     letter-spacing: 18px;
+//     border-bottom: 5px solid $opaque-color;
+//     padding-top: 20px;
+//   }
+// }
 
 @import "./pages/navbar";
 @import "./pages/hero";
