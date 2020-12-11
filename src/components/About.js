@@ -5,19 +5,12 @@ export const About = (props) => {
     <div className="about-container" id="about">
       <div ref={props.aboutArrowRef} className="arrow">
         <h4>About Me</h4>
-        {/* <p className="divider">
-          <span>></span>
-        </p> */}
-      </div>
-      <div className="arrow-mobile">
-        <h4>About Me</h4>
       </div>
       <div className="personal-blurb">
         <p>
           Full stack developer with a background in ESL education over five
           years and in two foreign countries.
         </p>
-        {/* <p className="divider"><span>></span></p> */}
         <p>
           My student-focused method of teaching translates into a
           client-centered approach, where my soft skills of patience, care, and
@@ -25,17 +18,14 @@ export const About = (props) => {
           and web development in order to create an end product that matches the
           vision of my clients.
         </p>
-        {/* <p className="divider"><span>></span></p> */}
         <p>
           It is my objective to create professional, engaging, and fluid
           applications that inspire the user and communicate the product through
           seamless function and thoughtful form.
         </p>
-        {/* <p className="divider"><span>></span></p> */}
       </div>
       <div className="skills-container">
         <h3>Hard Skills</h3>
-        {/* <p className="divider"><span>></span></p> */}
         <div>
           <ul>
             <li>HTML/CSS</li>
@@ -65,7 +55,6 @@ export const About = (props) => {
       </div>
       <div className="skills-container">
         <h3>Soft Skills</h3>
-        {/* <p className="divider"><span>></span></p> */}
         <div>
           <ul>
             <li>Teamwork</li>

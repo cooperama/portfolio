@@ -18,9 +18,6 @@ export const Navbar = (props) => {
         Amanda <span>Jia</span> Cooper
       </h1>
       <div className="nav-div">
-        <p className="back-arrow">
-          <span>>>></span>
-        </p>
         <a
           className="nav"
           ref={props.homeRef}
@@ -60,11 +57,9 @@ export const Navbar = (props) => {
       </div>
       <div className="burger-container" onClick={burgerClickHandler}>
         <div ref={burgerRef} className="burger-menu"></div>
-        <div ref={burgerRef} className="burger-menu2"></div>
       </div>
       <div ref={navRef} className="burger-nav">
         <div className="burger-menu-back"></div>
-        <div className="burger-menu-back2"></div>
         <a onClick={burgerClickHandler} href="#home" id="home-nav">
           Home
         </a>

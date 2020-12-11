@@ -8,19 +8,12 @@
     text-align: center;
     line-height: 1.5;
     width: 65%;
-    margin: 0 auto;
+    margin: 15px auto;
   }
 }
 
 .personal-blurb {
-  margin: 130px 0;
-}
-
-.divider {
-  // transform: rotate(90deg);
-  span {
-    // font-size: 1.5rem;
-  }
+  margin: 120px 0;
 }
 
 .skills-container {
@@ -28,7 +21,6 @@
   margin: 100px 0;
   h3 {
     border-bottom: none;
-    // padding-bottom: 0;
   }
   div {
     width: 65%;

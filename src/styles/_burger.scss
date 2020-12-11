@@ -1,6 +1,4 @@
 .burger-menu-back,
-.burger-menu-back2,
-.burger-menu2,
 .burger-menu {
   width: 15px;
   height: 1px;
@@ -12,12 +10,6 @@
   transition: all 0.5s ease;
 }
 
-.burger-menu-back2 {
-  top: -52px;
-  right: 23px;
-  z-index: -1;
-}
-
 .burger-menu-back {
   top: -52px;
   right: 13px;
@@ -27,11 +19,7 @@
 .burger-menu-back::before,
 .burger-menu-back::after,
 .burger-menu::before,
-.burger-menu::after,
-.burger-menu-back2::before,
-.burger-menu-back2::after,
-.burger-menu2::before,
-.burger-menu2::after {
+.burger-menu::after {
   content: "";
   width: inherit;
   height: inherit;

@@ -13,7 +13,6 @@ export const navRotation = (selectedEl) => {
   // Handle Home button click - return to original position
   if (selectedEl.innerText === "Home") {
     navContainer.classList.remove("rotatedRight");
-    navContainer.children[0].style.transform = "rotate(180deg)";
 
     nameDiv.classList.remove("rotatedLeft");
     nameDiv.children[1].classList.remove("centered");
@@ -22,7 +21,6 @@ export const navRotation = (selectedEl) => {
 
   // Handle Nav clicks - rotate to side
   navContainer.classList.add("rotatedRight");
-  navContainer.children[0].style.transform = "rotate(90deg)";
   selectedEl.classList.add("selectedLink");
 
   nameDiv.classList.add("rotatedLeft");
