@@ -1,23 +1,23 @@
 import React from "react";
 
-import flixr from "../images/flixr.png";
-import flixr2 from "../images/flixr2.png";
-import flixr3 from "../images/flixr3.png";
+import flixr from "../assets/images/flixr.png";
+import flixr2 from "../assets/images/flixr2.png";
+import flixr3 from "../assets/images/flixr3.png";
 
-import tamagotchi from "../images/tamagotchi.png";
-import tamagotchi2 from "../images/tamagotchi2.png";
-import tamagotchi3 from "../images/tamagotchi3.png";
-import tamagotchi4 from "../images/tamagotchi4.png";
+import tamagotchi from "../assets/images/tamagotchi.png";
+import tamagotchi2 from "../assets/images/tamagotchi2.png";
+import tamagotchi3 from "../assets/images/tamagotchi3.png";
+import tamagotchi4 from "../assets/images/tamagotchi4.png";
 
-import wayfarer1 from "../images/wayfarer1.png";
-import wayfarer2 from "../images/wayfarer2.png";
-import wayfarer3 from "../images/wayfarer3.png";
-import wayfarer4 from "../images/wayfarer4.png";
+import wayfarer1 from "../assets/images/wayfarer1.png";
+import wayfarer2 from "../assets/images/wayfarer2.png";
+import wayfarer3 from "../assets/images/wayfarer3.png";
+import wayfarer4 from "../assets/images/wayfarer4.png";
 
-import codependent1 from "../images/codependent1.png";
-import codependent2 from "../images/codependent2.png";
-import codependent3 from "../images/codependent3.png";
-import codependent4 from "../images/codependent4.png";
+import codependent1 from "../assets/images/codependent1.png";
+import codependent2 from "../assets/images/codependent2.png";
+import codependent3 from "../assets/images/codependent3.png";
+import codependent4 from "../assets/images/codependent4.png";
 
 export const Projects = (props) => {
   const imageOverHandler = (e) => {
@@ -88,101 +88,6 @@ export const Projects = (props) => {
           </div>
         </div>
         <div className="project">
-          <h3>co[de]pendent</h3>
-          <div>
-            <p>
-              Co[de]pendent is a place where technologically-inclined people can
-              meet and foster their passion together. It's a place to share
-              knowledge, resources, and advice with like-minded people who all
-              have something to learn and teach.
-            </p>
-            <p>
-              Built with a MERN stack and implementing the FullCalendar library
-              to create a scheduling system.
-            </p>
-          </div>
-          <div className="external-links">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/codependent"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent1}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent3}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent4}
-              alt="project"
-            />
-          </div>
-        </div>
-        <div className="project">
-          <h3>Wayfarer</h3>
-          <div>
-            <p>
-              Wayfarer is an online community of travelers and drifters, where
-              memories are shared and adventures are planned.
-            </p>
-            <p>Built with Python/Django and PostgreSQL.</p>
-          </div>
-          <div className="external-links">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/Wayfarer"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer1}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer3}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer4}
-              alt="project"
-            />
-          </div>
-        </div>
-        <div className="project">
           <h3>Motchi Gotchi</h3>
           <div>
             <p>
@@ -235,6 +140,101 @@ export const Projects = (props) => {
               onMouseOut={imageOutHandler}
               onMouseOver={imageOverHandler}
               src={tamagotchi4}
+              alt="project"
+            />
+          </div>
+        </div>
+        <div className="project">
+          <h3>Wayfarer</h3>
+          <div>
+            <p>
+              Wayfarer is an online community of travelers and drifters, where
+              memories are shared and adventures are planned.
+            </p>
+            <p>Built with Python/Django and PostgreSQL.</p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/Wayfarer"
+            >
+              Visit GitHub <i className="fab fa-github"></i>
+            </a>
+          </div>
+          <div className="images-container">
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={wayfarer1}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={wayfarer2}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={wayfarer3}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={wayfarer4}
+              alt="project"
+            />
+          </div>
+        </div>
+        <div className="project">
+          <h3>co[de]pendent (in progress)</h3>
+          <div>
+            <p>
+              Co[de]pendent is a place where technologically-inclined people can
+              meet and foster their passion together. It's a place to share
+              knowledge, resources, and advice with like-minded people who all
+              have something to learn and teach.
+            </p>
+            <p>
+              Built with a MERN stack and implementing the FullCalendar library
+              to create a scheduling system.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/codependent"
+            >
+              Visit GitHub <i className="fab fa-github"></i>
+            </a>
+          </div>
+          <div className="images-container">
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={codependent1}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={codependent2}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={codependent3}
+              alt="project"
+            />
+            <img
+              onMouseOut={imageOutHandler}
+              onMouseOver={imageOverHandler}
+              src={codependent4}
               alt="project"
             />
           </div>
