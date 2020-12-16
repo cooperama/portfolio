@@ -5,9 +5,6 @@ export const Contact = (props) => {
     <div className="contact-container" id="contact">
       <div ref={props.contactArrowRef} className="arrow">
         <h4>Contact Me</h4>
-        <p className="divider">
-          <span>></span>
-        </p>
       </div>
       <div className="contact-div">
         <div>

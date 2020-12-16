@@ -32,7 +32,7 @@ nav {
   position: absolute;
   width: 700px;
   right: -280px;
-  top: 300px;
+  top: 330px;
   transform: rotate(90deg);
   transition: all 0.4s ease;
 }
@@ -41,15 +41,4 @@ nav {
   transform: rotate(-90deg);
   border-bottom: 1px solid black;
   transition: all 0.4s ease;
-}
-
-.nav-container {
-  // position: relative;
-}
-.nav-container:before {
-  position: absolute;
-  content: "";
-  height: 100%;
-  z-index: -2;
-  animation: intro-animation 1.4s cubic-bezier(0.65, 0.17, 0.6, 0.99) 8s;
 }

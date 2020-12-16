@@ -34,9 +34,6 @@ export const Projects = (props) => {
     <div className="projects-container" id="projects">
       <div ref={props.projectsArrowRef} className="arrow">
         <h4>My Projects</h4>
-        <p className="divider">
-          <span>></span>
-        </p>
       </div>
       <div className="project-section">
         <div className="project">

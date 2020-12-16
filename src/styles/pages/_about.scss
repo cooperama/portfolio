@@ -27,7 +27,11 @@
   padding-top: 20px;
   margin: 100px 0;
   h3 {
+    width: fit-content;
     border-bottom: none;
+    // color: $primary-color;
+    font-weight: 300;
+    font-size: 1.8rem;
   }
   div {
     width: 65%;
