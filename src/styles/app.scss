@@ -1,4 +1,5 @@
-$primary-color: #1a2a54d7;
+$primary-color: #6074ac;
+// $primary-color: #1a2a54d7;
 $secondary-color: #b1bddea1;
 $opaque-color: #b1bdde;
 $light-color: #89a0e0;
@@ -34,7 +35,10 @@ $light-color: #89a0e0;
   text-align: center;
   position: relative;
   margin: auto;
-  top: 30px;
+  color: $primary-color;
+  top: -110px;
+  // font-weight: bolder;
+  // top: 30px;
   width: 50%;
   h4 {
     padding: 15px;
@@ -48,17 +52,37 @@ $light-color: #89a0e0;
   }
 }
 
-// .lowered-arrow {
-//   top: 30px;
-//   background-color: $opaque-color;
-//   transition: all 0.5s ease;
-//   h4 {
-//     transition: all 0.5s ease;
-//     letter-spacing: 18px;
-//     border-bottom: 5px solid $opaque-color;
-//     padding-top: 20px;
-//   }
-// }
+.divider {
+  // transform: rotate(90deg);
+  // width: 15% !important;
+
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(180deg);
+  span {
+    font-size: 2rem;
+  }
+}
+
+.arrow-span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid $primary-color;
+  border-right: 1px solid $primary-color;
+  transform: rotate(-135deg);
+}
+
+.lowered-arrow {
+  top: 30px;
+  color: $primary-color;
+  transition: all 0.5s ease;
+  h4 {
+    font-size: 1.8rem;
+    transition: all 0.5s ease;
+    padding-top: 20px;
+  }
+}
 
 @import "./pages/navbar";
 @import "./pages/hero";

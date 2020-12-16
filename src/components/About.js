@@ -5,6 +5,11 @@ export const About = (props) => {
     <div className="about-container" id="about">
       <div ref={props.aboutArrowRef} className="arrow">
         <h4>About Me</h4>
+        <p className="divider">
+          {/* <span>></span> */}
+          <span className="arrow-span"></span>
+          <span className="arrow-span"></span>
+        </p>
       </div>
       <div className="personal-blurb">
         <p>
@@ -24,7 +29,7 @@ export const About = (props) => {
           seamless function and thoughtful form.
         </p>
         <p>
-          <a href={resume} target="_blank">
+          <a className="resume" href={resume} target="_blank">
             My Resume
           </a>
         </p>
