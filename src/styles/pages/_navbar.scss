@@ -19,6 +19,8 @@ nav {
     margin: 0 1rem;
     padding-bottom: 5px;
     display: block;
+    animation: fade-in 9s;
+    width: auto;
     &:visited {
       color: black;
     }

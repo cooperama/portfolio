@@ -45,12 +45,25 @@ export const Projects = (props) => {
               that matches the user's current mood and interests.
             </p>
             <p>
+              Flixr was a team project built with{" "}
+              <a
+                className="link-out"
+                href="https://github.com/van-doan"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Andy Doan
+              </a>
+              .
+            </p>
+            <p>
               Built with MongoDB, Express.js, and Node.js using TMDB's (The
               Movie Database) web API.
             </p>
           </div>
           <div className="external-links">
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="http://flixr-io.herokuapp.com/"
@@ -59,6 +72,7 @@ export const Projects = (props) => {
               <i className="fas fa-external-link-alt"></i>
             </a>
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="https://github.com/cooperama/flixr"
@@ -103,6 +117,7 @@ export const Projects = (props) => {
           </div>
           <div className="external-links">
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="https://pages.git.generalassemb.ly/cooperama/project_0_tamagotchi/"
@@ -110,6 +125,7 @@ export const Projects = (props) => {
               Play with Motchi<i className="fas fa-external-link-alt"></i>
             </a>
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="https://github.com/cooperama/motchi-gotchi"
@@ -151,10 +167,41 @@ export const Projects = (props) => {
               Wayfarer is an online community of travelers and drifters, where
               memories are shared and adventures are planned.
             </p>
+            <p>
+              Wayfarer was a team project built with{" "}
+              <a
+                className="link-out"
+                href="https://github.com/ChristopherZalapa"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Christopher Zalapa
+              </a>
+              ,{" "}
+              <a
+                className="link-out"
+                href="https://github.com/CSimoneCode"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Simone Poe
+              </a>
+              , and{" "}
+              <a
+                className="link-out"
+                href="https://github.com/baezus"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Elias Baez
+              </a>
+              .
+            </p>
             <p>Built with Python/Django and PostgreSQL.</p>
           </div>
           <div className="external-links">
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="https://github.com/cooperama/Wayfarer"
@@ -205,6 +252,7 @@ export const Projects = (props) => {
           </div>
           <div className="external-links">
             <a
+              className="link-out"
               rel="noreferrer"
               target="_blank"
               href="https://github.com/cooperama/codependent"

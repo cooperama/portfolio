@@ -6,6 +6,8 @@ export const navRotation = (selectedEl) => {
   }
   const navContainer = selectedEl.parentElement;
   const nameDiv = navContainer.parentElement.children[0];
+  const nameSpan = nameDiv.children[1];
+  console.log(nameSpan);
   // Unrotate rotated navs
   for (let child of navContainer.children) {
     child.classList.remove("selectedLink");
@@ -16,6 +18,7 @@ export const navRotation = (selectedEl) => {
 
     nameDiv.classList.remove("rotatedLeft");
     nameDiv.children[1].classList.remove("centered");
+    nameSpan.classList.remove("underline");
     return;
   }
 
@@ -25,6 +28,7 @@ export const navRotation = (selectedEl) => {
 
   nameDiv.classList.add("rotatedLeft");
   nameDiv.children[1].classList.add("centered");
+  nameSpan.classList.add("underline");
 };
 
 export const moveDown = (arrowRef) => {

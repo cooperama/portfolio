@@ -8,11 +8,15 @@
     margin: 8px;
     font-size: 2.5rem;
     font-weight: 200;
+    animation: fade-in 9s;
   }
 }
 
 .name {
   font-size: 2.6rem !important;
+}
+
+.underline {
   border-bottom: 1px solid black;
 }
 
