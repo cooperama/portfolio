@@ -82,7 +82,7 @@ const App = () => {
         homeRef={homeRef}
       />
       <Hero />
-      <About aboutArrowRef={aboutArrowRef} />
+      <About setSection={setSection} aboutArrowRef={aboutArrowRef} />
       <Projects projectsArrowRef={projectsArrowRef} />
       <Contact contactArrowRef={contactArrowRef} />
     </div>

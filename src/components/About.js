@@ -1,16 +1,23 @@
 import React from "react";
+import { navRotation } from "../utils";
 import resume from "../assets/CooperJia2020.pdf";
+
 export const About = (props) => {
+  const navClickHandler = (e) => {
+    props.setSection(e.target.id);
+  };
   return (
     <div className="about-container" id="about">
+      {/* <a href="#about" id="about" onClick={(navRotation, navClickHandler)}> */}
       <div ref={props.aboutArrowRef} className="arrow">
         <h4>About Me</h4>
         <p className="divider">
           {/* <span>></span> */}
-          <span className="arrow-span"></span>
-          <span className="arrow-span"></span>
+          {/* <span className="arrow-span"></span> */}
+          {/* <span className="arrow-span"></span> */}
         </p>
       </div>
+      {/* </a> */}
       <div className="personal-blurb">
         <p>
           Full stack developer with a background in ESL education over five
