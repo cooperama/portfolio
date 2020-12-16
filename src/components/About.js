@@ -1,5 +1,5 @@
 import React from "react";
-
+import resume from "../assets/CooperJia2020.pdf";
 export const About = (props) => {
   return (
     <div className="about-container" id="about">
@@ -22,6 +22,11 @@ export const About = (props) => {
           It is my objective to create professional, engaging, and fluid
           applications that inspire the user and communicate the product through
           seamless function and thoughtful form.
+        </p>
+        <p>
+          <a href={resume} target="_blank">
+            My Resume
+          </a>
         </p>
       </div>
       <div className="skills-container">
