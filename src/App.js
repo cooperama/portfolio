@@ -18,6 +18,7 @@ const App = () => {
   const aboutRef = useRef();
   const projectsRef = useRef();
   const homeRef = useRef();
+  const navBGRef = useRef();
 
   const aboutArrowRef = useRef();
   const projectsArrowRef = useRef();
@@ -80,8 +81,9 @@ const App = () => {
         aboutRef={aboutRef}
         projectsRef={projectsRef}
         homeRef={homeRef}
+        navBGRef={navBGRef}
       />
-      <Hero />
+      <Hero navBGRef={navBGRef} />
       <About aboutArrowRef={aboutArrowRef} />
       <Projects projectsArrowRef={projectsArrowRef} />
       <Contact contactArrowRef={contactArrowRef} />

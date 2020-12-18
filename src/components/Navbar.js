@@ -5,6 +5,7 @@ import { navRotation } from "../utils";
 export const Navbar = (props) => {
   const navRef = useRef();
   const burgerRef = useRef();
+
   const navClickHandler = (e) => {
     props.setSection(e.target.id);
   };
@@ -73,6 +74,7 @@ export const Navbar = (props) => {
           Contact Me
         </a>
       </div>
+      <div ref={props.navBGRef} className="nav-background nav-animation"></div>
     </nav>
   );
 };

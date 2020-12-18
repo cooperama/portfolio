@@ -29,31 +29,59 @@
   cursor: pointer;
 }
 
-.intro-text {
+.text-h2 {
   position: relative;
-  width: fit-content;
+  // background: red;
 }
 
-.intro-text::before {
+.intro-text {
+  // position: relative;
+  // width: fit-content;
+}
+
+.intro-text {
   position: absolute;
-  content: "";
   height: 100%;
+  width: 100%;
   z-index: -2;
   animation: intro-animation 1.4s cubic-bezier(0.65, 0.17, 0.6, 0.99) 0.2s;
 }
 
-.intro-text-2::before {
+.intro-text-2 {
   animation: intro-animation 1.4s cubic-bezier(0.65, 0.17, 0.6, 0.99) 1.6s;
 }
 
-.intro-text-3::before {
+.intro-text-3 {
   animation: intro-animation 1.2s cubic-bezier(0.65, 0.17, 0.6, 0.99) 3s;
 }
 
-.intro-text-4::before {
+.intro-text-4 {
   animation: intro-animation 1.2s cubic-bezier(0.65, 0.17, 0.6, 0.99) 4.2s;
 }
 
-.intro-text-5::before {
+.intro-text-5 {
   animation: intro-animation 1s cubic-bezier(0.65, 0.17, 0.6, 0.99) 5.6s;
 }
+// .intro-text::before {
+//   position: absolute;
+//   content: "";
+//   height: 100%;
+//   z-index: -2;
+//   animation: intro-animation 1.4s cubic-bezier(0.65, 0.17, 0.6, 0.99) 0.2s;
+// }
+
+// .intro-text-2::before {
+//   animation: intro-animation 1.4s cubic-bezier(0.65, 0.17, 0.6, 0.99) 1.6s;
+// }
+
+// .intro-text-3::before {
+//   animation: intro-animation 1.2s cubic-bezier(0.65, 0.17, 0.6, 0.99) 3s;
+// }
+
+// .intro-text-4::before {
+//   animation: intro-animation 1.2s cubic-bezier(0.65, 0.17, 0.6, 0.99) 4.2s;
+// }
+
+// .intro-text-5::before {
+//   animation: intro-animation 1s cubic-bezier(0.65, 0.17, 0.6, 0.99) 5.6s;
+// }
