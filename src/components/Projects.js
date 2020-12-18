@@ -20,16 +20,6 @@ import codependent3 from "../assets/images/codependent3.png";
 import codependent4 from "../assets/images/codependent4.png";
 
 export const Projects = (props) => {
-  const imageOverHandler = (e) => {
-    if (window.innerWidth > 786) {
-      e.target.style.transform = "scale(1.5)";
-      e.target.style.zIndex = "3";
-    }
-  };
-  const imageOutHandler = (e) => {
-    e.target.style.transform = "scale(1)";
-    e.target.style.zIndex = "1";
-  };
   return (
     <div className="projects-container" id="projects">
       <div ref={props.projectsArrowRef} className="arrow">
@@ -81,24 +71,9 @@ export const Projects = (props) => {
             </a>
           </div>
           <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={flixr}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={flixr2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={flixr3}
-              alt="project"
-            />
+            <img src={flixr} alt="project" />
+            <img src={flixr2} alt="project" />
+            <img src={flixr3} alt="project" />
           </div>
         </div>
         <div className="project">
@@ -134,30 +109,10 @@ export const Projects = (props) => {
             </a>
           </div>
           <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={tamagotchi}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={tamagotchi2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={tamagotchi3}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={tamagotchi4}
-              alt="project"
-            />
+            <img src={tamagotchi} alt="project" />
+            <img src={tamagotchi2} alt="project" />
+            <img src={tamagotchi3} alt="project" />
+            <img src={tamagotchi4} alt="project" />
           </div>
         </div>
         <div className="project">
@@ -210,30 +165,10 @@ export const Projects = (props) => {
             </a>
           </div>
           <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer1}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer3}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={wayfarer4}
-              alt="project"
-            />
+            <img src={wayfarer1} alt="project" />
+            <img src={wayfarer2} alt="project" />
+            <img src={wayfarer3} alt="project" />
+            <img src={wayfarer4} alt="project" />
           </div>
         </div>
         <div className="project">
@@ -261,30 +196,10 @@ export const Projects = (props) => {
             </a>
           </div>
           <div className="images-container">
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent1}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent2}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent3}
-              alt="project"
-            />
-            <img
-              onMouseOut={imageOutHandler}
-              onMouseOver={imageOverHandler}
-              src={codependent4}
-              alt="project"
-            />
+            <img src={codependent1} alt="project" />
+            <img src={codependent2} alt="project" />
+            <img src={codependent3} alt="project" />
+            <img src={codependent4} alt="project" />
           </div>
         </div>
       </div>

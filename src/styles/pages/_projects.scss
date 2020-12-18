@@ -52,5 +52,10 @@
     max-width: 500px;
     padding: 5px;
     transition: all 0.5s ease;
+    &:hover {
+      transition: all 0.5s ease-in 0.3s;
+      transform: scale(1.5) !important;
+      z-index: 3 !important;
+    }
   }
 }
