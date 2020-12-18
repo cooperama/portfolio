@@ -11,13 +11,22 @@
     display: none;
   }
   nav {
-    background-color: $opaque-color;
     height: 80px;
+    position: relative;
     .burger-menu {
       top: -14px;
       right: 20px;
     }
+    &::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: $opaque-color;
+      animation: navbar-intro 8s;
+    }
   }
+
   .project-section,
   .skills-container div {
     width: 90%;

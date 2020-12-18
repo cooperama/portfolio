@@ -10,6 +10,7 @@ export const Hero = () => {
         <h2 className="intro-text intro-text-4">Former Teacher.</h2>
         <h2 className="intro-text intro-text-5">Forever Learner.</h2>
       </div>
+      <button className="skip-intro">skip intro</button>
     </div>
   );
 };

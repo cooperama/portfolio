@@ -58,7 +58,7 @@ export const Navbar = (props) => {
       <div className="burger-container" onClick={burgerClickHandler}>
         <div ref={burgerRef} className="burger-menu"></div>
       </div>
-      <div ref={navRef} className="burger-nav">
+      <div onClick={burgerClickHandler} ref={navRef} className="burger-nav">
         <div className="burger-menu-back"></div>
         <a onClick={burgerClickHandler} href="#home" id="home-nav">
           Home
