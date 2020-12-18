@@ -14,13 +14,13 @@ export const Navbar = (props) => {
   };
   return (
     <nav className="nav-container">
-      <Name />
+      <Name nameRef={props.nameRef} />
       <h1 className="name-mobile">
         Amanda <span>Jia</span> Cooper
       </h1>
       <div className="nav-div">
         <a
-          className="nav"
+          className="nav fade-in"
           ref={props.homeRef}
           id="home-nav"
           href="#home"
@@ -29,7 +29,7 @@ export const Navbar = (props) => {
           Home
         </a>
         <a
-          className="nav"
+          className="nav fade-in"
           id="about-nav"
           href="#about"
           ref={props.aboutRef}
@@ -38,7 +38,7 @@ export const Navbar = (props) => {
           About Me
         </a>
         <a
-          className="nav"
+          className="nav fade-in"
           id="projects-nav"
           href="#projects"
           ref={props.projectsRef}
@@ -47,7 +47,7 @@ export const Navbar = (props) => {
           My Projects
         </a>
         <a
-          className="nav"
+          className="nav fade-in"
           id="contact-nav"
           href="#contact"
           ref={props.contactRef}

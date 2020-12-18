@@ -1,3 +1,7 @@
+.fade-in {
+  animation: fade-in 9s;
+}
+
 @keyframes fade-in {
   0% {
     margin-top: 100px;

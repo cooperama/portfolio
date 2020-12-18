@@ -6,8 +6,22 @@ export const Hero = (props) => {
   const heroTextRef3 = useRef();
   const heroTextRef4 = useRef();
   const heroTextRef5 = useRef();
+
   const skipHandler = () => {
     props.navBGRef.current.classList.remove("nav-animation");
+    const nameText = props.nameRef.current.childNodes;
+    nameText.forEach((text) => {
+      text.classList.remove("fade-in");
+    });
+    const navs = [].concat(
+      props.homeRef.current,
+      props.aboutRef.current,
+      props.projectsRef.current,
+      props.contactRef.current
+    );
+    navs.forEach((nav) => {
+      nav.classList.remove("fade-in");
+    });
     const text = [].concat(
       heroTextRef.current,
       heroTextRef2.current,

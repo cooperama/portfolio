@@ -13,6 +13,7 @@ const App = () => {
   const [section, setSection] = useState("home-nav");
   // Refs
   const appRef = useRef();
+  const nameRef = useRef();
   // Nav container refs
   const contactRef = useRef();
   const aboutRef = useRef();
@@ -75,6 +76,7 @@ const App = () => {
   return (
     <div className="App" onWheel={sectionScroll} ref={appRef}>
       <Navbar
+        nameRef={nameRef}
         section={section}
         setSection={setSection}
         contactRef={contactRef}
@@ -83,7 +85,14 @@ const App = () => {
         homeRef={homeRef}
         navBGRef={navBGRef}
       />
-      <Hero navBGRef={navBGRef} />
+      <Hero
+        nameRef={nameRef}
+        navBGRef={navBGRef}
+        contactRef={contactRef}
+        aboutRef={aboutRef}
+        projectsRef={projectsRef}
+        homeRef={homeRef}
+      />
       <About aboutArrowRef={aboutArrowRef} />
       <Projects projectsArrowRef={projectsArrowRef} />
       <Contact contactArrowRef={contactArrowRef} />
