@@ -58,6 +58,7 @@ const App = () => {
     const scrollDistance = windowHeight - startingHeight;
     // when 3% of the next section is showing, trigger functions
     console.log(window.innerHeight);
+    // document.documentElement.scrollHeight
     console.log("topBound: ", appRef.current.getBoundingClientRect().top);
     console.log("distance that can be traversed", scrollDistance);
     console.log(startingHeight / windowHeight);
