@@ -25,7 +25,7 @@ export const About = (props) => {
           seamless function and thoughtful form.
         </p>
         <p>
-          <a className="resume" href={resume} target="_blank">
+          <a className="resume" href={resume} rel="noreferrer" target="_blank">
             My Resume
           </a>
         </p>

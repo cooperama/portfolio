@@ -202,6 +202,53 @@ export const Projects = (props) => {
             <img src={codependent4} alt="project" />
           </div>
         </div>
+        <div className="project">
+          <h3>Essentials</h3>
+          <div>
+            <p>
+              Essentials is a mobile app that provides up-to-date information
+              about the in-store availability of 2020's most valuable and
+              coveted items such as toilet paper, face masks, and hand
+              sanitizer.
+            </p>
+            <p>
+              Created in collaboration with Brendan Howe and Emily Forester,
+              Essentials was built with React, Express, Node, and
+              MongoDB/Mongoose.
+            </p>
+            <p>
+              Flixr was a team project built with{" "}
+              <a
+                className="link-out"
+                href="https://github.com/van-doan"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Andy Doan
+              </a>
+              .
+            </p>
+            <p>
+              Built with MongoDB, Express.js, and Node.js using TMDB's (The
+              Movie Database) web API.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              className="link-out"
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/essentials"
+            >
+              Visit GitHub <i className="fab fa-github"></i>
+            </a>
+          </div>
+          <div className="images-container">
+            <img src={flixr} alt="project" />
+            <img src={flixr2} alt="project" />
+            <img src={flixr3} alt="project" />
+          </div>
+        </div>
       </div>
     </div>
   );
