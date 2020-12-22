@@ -19,6 +19,8 @@ import codependent2 from "../assets/images/codependent2.png";
 import codependent3 from "../assets/images/codependent3.png";
 import codependent4 from "../assets/images/codependent4.png";
 
+import essentials from "../assets/images/essentials.gif";
+
 export const Projects = (props) => {
   return (
     <div className="projects-container" id="projects">
@@ -203,8 +205,18 @@ export const Projects = (props) => {
           </div>
         </div>
         <div className="project">
-          <h3>Essentials</h3>
+          <h3>
+            Essentials <i class="fas fa-medal"></i>
+          </h3>
           <div>
+            <div>
+              <p>
+                <strong>General Assembly 2020 Hackathon</strong>
+              </p>
+              <p>
+                <strong>Best Overall Winner</strong>
+              </p>
+            </div>
             <p>
               Essentials is a mobile app that provides up-to-date information
               about the in-store availability of 2020's most valuable and
@@ -212,21 +224,29 @@ export const Projects = (props) => {
               sanitizer.
             </p>
             <p>
-              Created in collaboration with Brendan Howe and Emily Forester,
-              Essentials was built with React, Express, Node, and
-              MongoDB/Mongoose.
-            </p>
-            <p>
-              Flixr was a team project built with{" "}
+              Created in collaboration with{" "}
               <a
                 className="link-out"
-                href="https://github.com/van-doan"
+                href="https://github.com/bhowe111"
                 rel="noreferrer"
                 target="_blank"
               >
-                Andy Doan
+                Brendan Howe
+              </a>{" "}
+              and{" "}
+              <a
+                className="link-out"
+                href="https://github.com/emilieforest"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Emily Forester
               </a>
               .
+            </p>
+            <p>
+              Essentials was built with React, Express, Node, and
+              MongoDB/Mongoose.
             </p>
             <p>
               Built with MongoDB, Express.js, and Node.js using TMDB's (The
@@ -244,9 +264,7 @@ export const Projects = (props) => {
             </a>
           </div>
           <div className="images-container">
-            <img src={flixr} alt="project" />
-            <img src={flixr2} alt="project" />
-            <img src={flixr3} alt="project" />
+            <img src={essentials} alt="project" />
           </div>
         </div>
       </div>
