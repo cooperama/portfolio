@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/CooperJia2020.pdf";
+import resume from "../assets/JiaCooper_Resume.pdf";
 
 export const About = (props) => {
   return (
