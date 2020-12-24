@@ -29,15 +29,57 @@ export const Projects = (props) => {
       </div>
       <div className="project-section">
         <div className="project">
+          <h3>co[de]pendent</h3>
+          <div>
+            <p>
+              React | MongoDB/Mongoose | Express | Node | bcrypt | JWT | SASS |
+              FullCalendar JS library
+            </p>
+            <p>
+              Co[de]pendent is a place where technologically-inclined people can
+              meet and foster their passion together. It's a place to share
+              knowledge, resources, and advice with like-minded people who all
+              have something to learn and teach.
+            </p>
+            <p>
+              This project was conceptualized, designed, and implemented by me.
+              To create this platform with the level of interactivity I
+              envisioned, I utilized six models created with a Mongoose schema
+              and stored on the MongoDB Atlas cloud database.
+            </p>
+          </div>
+          <div className="external-links">
+            <a
+              className="link-out"
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/codependent"
+            >
+              Visit GitHub <i className="fab fa-github"></i>
+            </a>
+          </div>
+          <div className="images-container">
+            <img src={codependent1} alt="project" />
+            <img src={codependent2} alt="project" />
+            <img src={codependent3} alt="project" />
+            <img src={codependent4} alt="project" />
+          </div>
+        </div>
+        <div className="project">
           <h3>Flixr</h3>
           <div>
+            <p>
+              JavaScript | MongoDB/Mongoose | Express | Node | bcrypt | Boostrap
+              | OMDB web API
+            </p>
             <p>
               Flixr is a cinematic search engine powered by user responses to a
               simple this or that quizlet that generates a personalized playlist
               that matches the user's current mood and interests.
             </p>
             <p>
-              Flixr was a team project built with{" "}
+              This project was collaboratively designed and developed by a team
+              of two, including myself and{" "}
               <a
                 className="link-out"
                 href="https://github.com/van-doan"
@@ -46,11 +88,12 @@ export const Projects = (props) => {
               >
                 Andy Doan
               </a>
-              .
-            </p>
-            <p>
-              Built with MongoDB, Express.js, and Node.js using TMDB's (The
-              Movie Database) web API.
+              . The concept was based on my own personal indecision when it came
+              to choosing a movie. As such, the implementation of the algorithm
+              to determine the results brought back from the API was done by me.
+              I also contributed to both front and back-end aspects of the
+              application, including making API calls, performing CRUD
+              operations, and creating user-facing web pages.
             </p>
           </div>
           <div className="external-links">
@@ -78,17 +121,86 @@ export const Projects = (props) => {
             <img src={flixr3} alt="project" />
           </div>
         </div>
+
+        <div className="project">
+          <h3>Wayfarer</h3>
+          <div>
+            <p>Python | Django | PostgreSQL | SASS</p>
+            <p>
+              Wayfarer is an online community where fellow travelers can see and
+              discuss where they’ve been in a forum-style setting. Users can
+              view all posts, add, edit, and delete their own posts, and also
+              have full CRUD functionality on comments. Wayfarer is an online
+              community of travelers and drifters, where memories are shared and
+              adventures are planned.
+            </p>
+            <p>
+              • Wayfarer was a project done in collaboration with{" "}
+              <a
+                className="link-out"
+                href="https://github.com/ChristopherZalapa"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Christopher Zalapa
+              </a>
+              ,{" "}
+              <a
+                className="link-out"
+                href="https://github.com/CSimoneCode"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Simone Poe
+              </a>
+              , and{" "}
+              <a
+                className="link-out"
+                href="https://github.com/baezus"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Elias Baez
+              </a>
+              , using GitH¬ub’s Kanban for task management. I played an integral
+              role in implementing back-end functionality, contributed greatly
+              to front-end layout and design.
+            </p>
+            <p>Built with Python/Django and PostgreSQL.</p>
+          </div>
+          <div className="external-links">
+            <a
+              className="link-out"
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/cooperama/Wayfarer"
+            >
+              Visit GitHub <i className="fab fa-github"></i>
+            </a>
+          </div>
+          <div className="images-container">
+            <img src={wayfarer1} alt="project" />
+            <img src={wayfarer2} alt="project" />
+            <img src={wayfarer3} alt="project" />
+            <img src={wayfarer4} alt="project" />
+          </div>
+        </div>
         <div className="project">
           <h3>Motchi Gotchi</h3>
           <div>
+            <p>JavaScript | HTML | CSS</p>
             <p>
               Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
               for Motchi is the user's job, which they can do by watching how
-              Motchi behaves and monitoring Motchi's stats.
+              Motchi behaves and monitoring Motchi's stats. This is a simple
+              web-based game modeled after the classic 90s Tamagotchi Pet game.
+              Using DOM manipulation and vanilla JavaScript, the user can
+              interact with the character, affecting the character’s stats in
+              order to keep it alive and happy.
             </p>
             <p>
-              This simple game based on the classic 90s Tamagotchi Pet game was
-              built with vanilla JavaScript, HTML, and CSS and deployed on
+              This was designed and developed independently as my first project
+              in the GA’s software engineering immersive course and deployed on
               Github Pages.
             </p>
           </div>
@@ -118,95 +230,9 @@ export const Projects = (props) => {
           </div>
         </div>
         <div className="project">
-          <h3>Wayfarer</h3>
-          <div>
-            <p>
-              Wayfarer is an online community of travelers and drifters, where
-              memories are shared and adventures are planned.
-            </p>
-            <p>
-              Wayfarer was a team project built with{" "}
-              <a
-                className="link-out"
-                href="https://github.com/ChristopherZalapa"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Christopher Zalapa
-              </a>
-              ,{" "}
-              <a
-                className="link-out"
-                href="https://github.com/CSimoneCode"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Simone Poe
-              </a>
-              , and{" "}
-              <a
-                className="link-out"
-                href="https://github.com/baezus"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Elias Baez
-              </a>
-              .
-            </p>
-            <p>Built with Python/Django and PostgreSQL.</p>
-          </div>
-          <div className="external-links">
-            <a
-              className="link-out"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/Wayfarer"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container">
-            <img src={wayfarer1} alt="project" />
-            <img src={wayfarer2} alt="project" />
-            <img src={wayfarer3} alt="project" />
-            <img src={wayfarer4} alt="project" />
-          </div>
-        </div>
-        <div className="project">
-          <h3>co[de]pendent (in progress)</h3>
-          <div>
-            <p>
-              Co[de]pendent is a place where technologically-inclined people can
-              meet and foster their passion together. It's a place to share
-              knowledge, resources, and advice with like-minded people who all
-              have something to learn and teach.
-            </p>
-            <p>
-              Built with a MERN stack and implementing the FullCalendar library
-              to create a scheduling system.
-            </p>
-          </div>
-          <div className="external-links">
-            <a
-              className="link-out"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/codependent"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container">
-            <img src={codependent1} alt="project" />
-            <img src={codependent2} alt="project" />
-            <img src={codependent3} alt="project" />
-            <img src={codependent4} alt="project" />
-          </div>
-        </div>
-        <div className="project">
           <h3>
-            Essentials <i class="fas fa-medal"></i>
+            <i class="fas fa-trophy"></i> Essentials{" "}
+            <i class="fas fa-medal"></i>
           </h3>
           <div>
             <div>
@@ -263,7 +289,7 @@ export const Projects = (props) => {
               Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
-          <div className="images-container">
+          <div className="images-container gif-essentials">
             <img src={essentials} alt="project" />
           </div>
         </div>
