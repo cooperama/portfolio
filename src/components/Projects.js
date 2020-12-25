@@ -135,7 +135,7 @@ export const Projects = (props) => {
               adventures are planned.
             </p>
             <p>
-              • Wayfarer was a project done in collaboration with{" "}
+              Wayfarer was a project done in collaboration with{" "}
               <a
                 className="link-out"
                 href="https://github.com/ChristopherZalapa"
@@ -231,18 +231,15 @@ export const Projects = (props) => {
         </div>
         <div className="project">
           <h3>
-            <i class="fas fa-trophy"></i> Essentials{" "}
-            <i class="fas fa-medal"></i>
+            Essentials <i className="fas fa-medal"></i>
           </h3>
           <div>
-            <div>
-              <p>
-                <strong>General Assembly 2020 Hackathon</strong>
-              </p>
-              <p>
-                <strong>Best Overall Winner</strong>
-              </p>
-            </div>
+            <p>
+              <strong>
+                General Assembly 2020 Hackathon - Best Overall Winner
+              </strong>
+            </p>
+
             <p>
               Essentials is a mobile app that provides up-to-date information
               about the in-store availability of 2020's most valuable and
@@ -273,10 +270,6 @@ export const Projects = (props) => {
             <p>
               Essentials was built with React, Express, Node, and
               MongoDB/Mongoose.
-            </p>
-            <p>
-              Built with MongoDB, Express.js, and Node.js using TMDB's (The
-              Movie Database) web API.
             </p>
           </div>
           <div className="external-links">

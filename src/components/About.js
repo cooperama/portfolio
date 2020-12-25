@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/AmandaCooper_Resume.pdf";
+import resume from "../assets/JiaCooper_Resume.pdf";
 
 export const About = (props) => {
   return (
@@ -16,22 +16,6 @@ export const About = (props) => {
           tasks and problems. Utilizes grit, compassion, and a growth-mindset to
           develop software that is impactful, meaningful, and functional.
         </p>
-        {/* <p>
-          Full stack developer with a background in ESL education over five
-          years and in two foreign countries.
-        </p>
-        <p>
-          My student-focused method of teaching translates into a
-          client-centered approach, where my soft skills of patience, care, and
-          diplomacy are interleaved with my hard skills of software engineering
-          and web development in order to create an end product that matches the
-          vision of my clients.
-        </p>
-        <p>
-          It is my objective to create professional, engaging, and fluid
-          applications that inspire the user and communicate the product through
-          seamless function and thoughtful form.
-        </p> */}
         <p>
           <a className="resume" href={resume} rel="noreferrer" target="_blank">
             My Resume

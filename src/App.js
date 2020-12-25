@@ -54,17 +54,18 @@ const App = () => {
 
   const sectionScroll = () => {
     const topBound = appRef.current.getBoundingClientRect().top;
-    if (topBound < -5200) {
+    console.log(topBound);
+    if (topBound < -6300) {
       if (section !== "contact-nav") {
         setSection("contact-nav");
       }
-    } else if (topBound < -1480) {
-      if (section !== "projects-nav") {
-        setSection("projects-nav");
-      }
-    } else if (topBound < -100) {
+    } else if (topBound < -5000) {
       if (section !== "about-nav") {
         setSection("about-nav");
+      }
+    } else if (topBound < -100) {
+      if (section !== "projects-nav") {
+        setSection("projects-nav");
       }
     } else {
       if (section !== "home-nav") {
@@ -93,8 +94,8 @@ const App = () => {
         projectsRef={projectsRef}
         homeRef={homeRef}
       />
-      <About aboutArrowRef={aboutArrowRef} />
       <Projects projectsArrowRef={projectsArrowRef} />
+      <About aboutArrowRef={aboutArrowRef} />
       <Contact contactArrowRef={contactArrowRef} />
     </div>
   );
