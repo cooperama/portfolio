@@ -45,7 +45,11 @@ export const Projects = (props) => {
               This project was conceptualized, designed, and implemented by me.
               To create this platform with the level of interactivity I
               envisioned, I utilized six models created with a Mongoose schema
-              and stored on the MongoDB Atlas cloud database.
+              and stored on the MongoDB Atlas cloud database. The most
+              interesting and challlenging part of this project was using a
+              calendar libarary and taking the data created with the methods and
+              property of the library and turning it into usable data for my
+              application.
             </p>
           </div>
           <div className="external-links">
@@ -162,9 +166,9 @@ export const Projects = (props) => {
               >
                 Elias Baez
               </a>
-              , using GitH¬ub’s Kanban for task management. I played an integral
-              role in implementing back-end functionality, contributed greatly
-              to front-end layout and design.
+              , using GitHub’s Kanban for task management. I played an integral
+              role in implementing back-end functionality, and contributed
+              greatly to front-end layout and design.
             </p>
             <p>Built with Python/Django and PostgreSQL.</p>
           </div>
@@ -247,7 +251,11 @@ export const Projects = (props) => {
               sanitizer.
             </p>
             <p>
-              Created in collaboration with{" "}
+              Essentials was built with React, Express, Node, and
+              MongoDB/Mongoose.
+            </p>
+            <p>
+              Developed in collaboration with{" "}
               <a
                 className="link-out"
                 href="https://github.com/bhowe111"
@@ -265,11 +273,8 @@ export const Projects = (props) => {
               >
                 Emily Forester
               </a>
-              .
-            </p>
-            <p>
-              Essentials was built with React, Express, Node, and
-              MongoDB/Mongoose.
+              . UX/UI designed by Siena Tetali, Amelia Muenzberg, Alex Rowly,
+              and Luis Zazueta.
             </p>
           </div>
           <div className="external-links">
