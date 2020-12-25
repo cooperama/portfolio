@@ -31,48 +31,52 @@ export const Projects = (props) => {
         <div className="project">
           <h3>co[de]pendent</h3>
           <div>
-            <p>
+            <p className="tech">
               React | MongoDB/Mongoose | Express | Node | bcrypt | JWT | SASS |
               FullCalendar JS library
             </p>
-            <p>
-              Co[de]pendent is a place where technologically-inclined people can
-              meet and foster their passion together. It's a place to share
-              knowledge, resources, and advice with like-minded people who all
-              have something to learn and teach.
-            </p>
-            <p>
-              This project was conceptualized, designed, and implemented by me.
-              To create this platform with the level of interactivity I
-              envisioned, I utilized six models created with a Mongoose schema
-              and stored on the MongoDB Atlas cloud database. The most
-              interesting and challlenging part of this project was using a
-              calendar libarary and taking the data created with the methods and
-              property of the library and turning it into usable data for my
-              application.
-            </p>
-          </div>
-          <div className="external-links">
-            <a
-              className="link-out"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/codependent"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container">
-            <img src={codependent1} alt="project" />
-            <img src={codependent2} alt="project" />
-            <img src={codependent3} alt="project" />
-            <img src={codependent4} alt="project" />
+            <div className="project-info">
+              <div className="images-container">
+                <img src={codependent1} alt="project" />
+                <img src={codependent2} alt="project" />
+                <img src={codependent3} alt="project" />
+                <img src={codependent4} alt="project" />
+              </div>
+              <div className="project-description">
+                <p>
+                  Co[de]pendent is a place where technologically-inclined people
+                  can meet and foster their passion together. It's a place to
+                  share knowledge, resources, and advice with like-minded people
+                  who all have something to learn and teach.
+                </p>
+                <p>
+                  This project was conceptualized, designed, and implemented by
+                  me. To create this platform with the level of interactivity I
+                  envisioned, I utilized six models created with a Mongoose
+                  schema and stored on the MongoDB Atlas cloud database. The
+                  most interesting and challlenging part of this project was
+                  using a calendar libarary and taking the data created with the
+                  methods and property of the library and turning it into usable
+                  data for my application.
+                </p>
+                <div className="external-links">
+                  <a
+                    className="link-out"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/cooperama/codependent"
+                  >
+                    Visit GitHub <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="project">
           <h3>Flixr</h3>
           <div>
-            <p>
+            <p className="tech">
               JavaScript | MongoDB/Mongoose | Express | Node | bcrypt | Boostrap
               | OMDB web API
             </p>
@@ -129,7 +133,7 @@ export const Projects = (props) => {
         <div className="project">
           <h3>Wayfarer</h3>
           <div>
-            <p>Python | Django | PostgreSQL | SASS</p>
+            <p className="tech">Python | Django | PostgreSQL | SASS</p>
             <p>
               Wayfarer is an online community where fellow travelers can see and
               discuss where they’ve been in a forum-style setting. Users can
@@ -170,7 +174,6 @@ export const Projects = (props) => {
               role in implementing back-end functionality, and contributed
               greatly to front-end layout and design.
             </p>
-            <p>Built with Python/Django and PostgreSQL.</p>
           </div>
           <div className="external-links">
             <a
@@ -192,7 +195,7 @@ export const Projects = (props) => {
         <div className="project">
           <h3>Motchi Gotchi</h3>
           <div>
-            <p>JavaScript | HTML | CSS</p>
+            <p className="tech">JavaScript | HTML5 | CSS3</p>
             <p>
               Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
               for Motchi is the user's job, which they can do by watching how
@@ -205,7 +208,8 @@ export const Projects = (props) => {
             <p>
               This was designed and developed independently as my first project
               in the GA’s software engineering immersive course and deployed on
-              Github Pages.
+              Github Pages. it was a great opportunity to implement my skills
+              with DOM manipulation, keyframes, and CSS transitions.
             </p>
           </div>
           <div className="external-links">
@@ -238,57 +242,60 @@ export const Projects = (props) => {
             Essentials <i className="fas fa-medal"></i>
           </h3>
           <div>
-            <p>
+            <p className="winner">
               <strong>
                 General Assembly 2020 Hackathon - Best Overall Winner
               </strong>
             </p>
+            <p className="tech">React | Express | Node | MongoDB/Mongoose</p>
+            <div className="essentials-div">
+              <div>
+                <div className="gif-essentials">
+                  <img src={essentials} alt="project" />
+                </div>
+              </div>
+              <div>
+                <p>
+                  Essentials is a mobile app that provides up-to-date
+                  information about the in-store availability of 2020's most
+                  valuable and coveted items such as toilet paper, face masks,
+                  and hand sanitizer.
+                </p>
 
-            <p>
-              Essentials is a mobile app that provides up-to-date information
-              about the in-store availability of 2020's most valuable and
-              coveted items such as toilet paper, face masks, and hand
-              sanitizer.
-            </p>
-            <p>
-              Essentials was built with React, Express, Node, and
-              MongoDB/Mongoose.
-            </p>
-            <p>
-              Developed in collaboration with{" "}
-              <a
-                className="link-out"
-                href="https://github.com/bhowe111"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Brendan Howe
-              </a>{" "}
-              and{" "}
-              <a
-                className="link-out"
-                href="https://github.com/emilieforest"
-                rel="noreferrer"
-                target="_blank"
-              >
-                Emily Forester
-              </a>
-              . UX/UI designed by Siena Tetali, Amelia Muenzberg, Alex Rowly,
-              and Luis Zazueta.
-            </p>
-          </div>
-          <div className="external-links">
-            <a
-              className="link-out"
-              rel="noreferrer"
-              target="_blank"
-              href="https://github.com/cooperama/essentials"
-            >
-              Visit GitHub <i className="fab fa-github"></i>
-            </a>
-          </div>
-          <div className="images-container gif-essentials">
-            <img src={essentials} alt="project" />
+                <p>
+                  Developed in collaboration with{" "}
+                  <a
+                    className="link-out"
+                    href="https://github.com/bhowe111"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Brendan Howe
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    className="link-out"
+                    href="https://github.com/emilieforest"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Emily Forester
+                  </a>
+                  . UX/UI designed by Siena Tetali, Amelia Muenzberg, Alex
+                  Rowly, and Luis Zazueta.
+                </p>
+                <div className="external-links">
+                  <a
+                    className="link-out"
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/cooperama/essentials"
+                  >
+                    Visit GitHub <i className="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

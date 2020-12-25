@@ -42,7 +42,7 @@ $light-color: #89a0e0af;
   top: 30px;
   z-index: -1;
   top: 150px;
-  transition: all 1.3s ease-out;
+  transition: all 1s ease-out;
   h4 {
     padding: 15px;
     margin-bottom: 5px;
@@ -58,7 +58,7 @@ $light-color: #89a0e0af;
 .lowered-arrow {
   top: 30px;
   color: $opaque-color;
-  transition: all 1.3s ease-out;
+  transition: all 1s ease-out;
 }
 
 @import "./pages/navbar";
