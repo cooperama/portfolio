@@ -54,12 +54,11 @@ const App = () => {
 
   const sectionScroll = () => {
     const topBound = appRef.current.getBoundingClientRect().top;
-    console.log(topBound);
-    if (topBound < -6300) {
+    if (topBound < -6700) {
       if (section !== "contact-nav") {
         setSection("contact-nav");
       }
-    } else if (topBound < -5000) {
+    } else if (topBound < -5300) {
       if (section !== "about-nav") {
         setSection("about-nav");
       }

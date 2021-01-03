@@ -13,6 +13,7 @@
   height: 35vh;
   a {
     user-select: all;
+    color: $primary-color;
   }
   i {
     font-size: 2rem;
@@ -26,6 +27,9 @@
     justify-content: space-evenly;
     margin: 0 10px;
   }
+  & + a {
+    text-decoration: none;
+  }
 }
 
 .work-together {
@@ -34,5 +38,9 @@
   bottom: 10%;
   font-weight: 300;
   font-size: 1.6rem;
-  width: 65%;
+  width: fit-content;
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
 }

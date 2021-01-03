@@ -50,14 +50,15 @@ export const Projects = (props) => {
                   who all have something to learn and teach.
                 </p>
                 <p>
-                  This project was conceptualized, designed, and implemented by
-                  me. To create this platform with the level of interactivity I
-                  envisioned, I utilized six models created with a Mongoose
-                  schema and stored on the MongoDB Atlas cloud database. The
-                  most interesting and challlenging part of this project was
-                  using a calendar libarary and taking the data created with the
-                  methods and property of the library and turning it into usable
-                  data for my application.
+                  This project was conceptualized, designed, and implemented
+                  independently. To create this platform with the level of
+                  interactivity I envisioned, I utilized six models created with
+                  a Mongoose schema and stored on the MongoDB Atlas cloud
+                  database. The most interesting and challenging part of this
+                  project was using a calendar libarary. Taking the data created
+                  with the methods and properties of the calendar's api then
+                  turning it into usable data for my application was a rewarding
+                  endeavor.
                 </p>
                 <div className="external-links">
                   <a
