@@ -33,7 +33,7 @@ export const Projects = (props) => {
           <div>
             <p className="tech">
               React | MongoDB/Mongoose | Express | Node | bcrypt | JWT | SASS |
-              FullCalendar JS library
+              Nodemailer | FullCalendar JS library
             </p>
             <div className="project-info">
               <div className="images-container">
@@ -80,6 +80,11 @@ export const Projects = (props) => {
               JavaScript | MongoDB/Mongoose | Express | Node | bcrypt | Boostrap
               | OMDB web API
             </p>
+            <div className="images-container">
+              <img src={flixr} alt="project" />
+              <img src={flixr2} alt="project" />
+              <img src={flixr3} alt="project" />
+            </div>
             <p>
               Flixr is a cinematic search engine powered by user responses to a
               simple this or that quizlet that generates a personalized playlist
@@ -123,17 +128,18 @@ export const Projects = (props) => {
               Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
-          <div className="images-container">
-            <img src={flixr} alt="project" />
-            <img src={flixr2} alt="project" />
-            <img src={flixr3} alt="project" />
-          </div>
         </div>
 
         <div className="project">
           <h3>Wayfarer</h3>
           <div>
             <p className="tech">Python | Django | PostgreSQL | SASS</p>
+            <div className="images-container">
+              <img src={wayfarer1} alt="project" />
+              <img src={wayfarer2} alt="project" />
+              <img src={wayfarer3} alt="project" />
+              <img src={wayfarer4} alt="project" />
+            </div>
             <p>
               Wayfarer is an online community where fellow travelers can see and
               discuss where they’ve been in a forum-style setting. Users can
@@ -185,17 +191,17 @@ export const Projects = (props) => {
               Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
-          <div className="images-container">
-            <img src={wayfarer1} alt="project" />
-            <img src={wayfarer2} alt="project" />
-            <img src={wayfarer3} alt="project" />
-            <img src={wayfarer4} alt="project" />
-          </div>
         </div>
         <div className="project">
           <h3>Motchi Gotchi</h3>
           <div>
             <p className="tech">JavaScript | HTML5 | CSS3</p>
+            <div className="images-container">
+              <img src={tamagotchi} alt="project" />
+              <img src={tamagotchi2} alt="project" />
+              <img src={tamagotchi3} alt="project" />
+              <img src={tamagotchi4} alt="project" />
+            </div>
             <p>
               Motchi is a Tamagotchi that loves to eat, learn, and play. Caring
               for Motchi is the user's job, which they can do by watching how
@@ -230,17 +236,12 @@ export const Projects = (props) => {
               Visit GitHub <i className="fab fa-github"></i>
             </a>
           </div>
-          <div className="images-container">
-            <img src={tamagotchi} alt="project" />
-            <img src={tamagotchi2} alt="project" />
-            <img src={tamagotchi3} alt="project" />
-            <img src={tamagotchi4} alt="project" />
-          </div>
         </div>
         <div className="project">
           <h3>
             Essentials <i className="fas fa-medal"></i>
           </h3>
+
           <div>
             <p className="winner">
               <strong>

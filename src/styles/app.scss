@@ -10,6 +10,9 @@ $light-color: #89a0e0af;
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: all 0.2s ease;
+  &::selection {
+    background-color: $primary-color;
+  }
   li {
     font-size: 1.1rem;
     user-select: none;
