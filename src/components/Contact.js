@@ -38,7 +38,9 @@ export const Contact = (props) => {
           </p>
         </div>
       </div>
-      <h3 className="work-together">Let's work together.</h3>
+      <a href="mailto:cooperama.8@gmail.com">
+        <h3 className="work-together">Let's work together.</h3>
+      </a>
     </div>
   );
 };

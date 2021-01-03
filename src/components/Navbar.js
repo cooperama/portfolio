@@ -30,21 +30,21 @@ export const Navbar = (props) => {
         </a>
         <a
           className="nav fade-in"
-          id="about-nav"
-          href="#about"
-          ref={props.aboutRef}
-          onClick={(navRotation, navClickHandler)}
-        >
-          About Me
-        </a>
-        <a
-          className="nav fade-in"
           id="projects-nav"
           href="#projects"
           ref={props.projectsRef}
           onClick={(navRotation, navClickHandler)}
         >
           My Projects
+        </a>
+        <a
+          className="nav fade-in"
+          id="about-nav"
+          href="#about"
+          ref={props.aboutRef}
+          onClick={(navRotation, navClickHandler)}
+        >
+          About Me
         </a>
         <a
           className="nav fade-in"
