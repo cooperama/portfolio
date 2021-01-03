@@ -64,11 +64,11 @@ export const Navbar = (props) => {
         <a onClick={burgerClickHandler} href="#home" id="home-nav">
           Home
         </a>
-        <a onClick={burgerClickHandler} href="#about" id="about-nav">
-          About Me
-        </a>
         <a onClick={burgerClickHandler} href="#projects" id="projects-nav">
           My Projects
+        </a>
+        <a onClick={burgerClickHandler} href="#about" id="about-nav">
+          About Me
         </a>
         <a onClick={burgerClickHandler} href="#contact" id="contact-nav">
           Contact Me
